@@ -57,7 +57,7 @@ Il n'y a **qu'un seul fichier**. Le jeu complet est gratuit ; une **clé de lice
 #### Version premium
 
 - **Île aléatoire** : un relief neuf, des hameaux et des installations répartis autrement, un point de départ tiré au sort. Chaque île porte un numéro.
-- **Carte réelle** : le relief et les villages d'un vrai lieu. Tapez un nom (Chamonix, mont Ventoux, Lofoten…) ou des coordonnées (`45.92, 6.87`, `45°55'N 6°52'E`, ou un lien Google Maps ou OpenStreetMap). Choisissez une zone de 20, 40 ou 60 km et regardez l'aperçu du relief avant de jouer. Une connexion Internet est nécessaire.
+- **Carte réelle** : un vrai lieu, tel qu'il est : le relief, les villages et tous leurs bâtiments (jusqu'à 6 000), les routes et les chemins, les rivières, les lacs, les forêts, les aérodromes et les ponts, d'après OpenStreetMap. Tapez un nom (Chamonix, mont Ventoux, Lofoten…) ou des coordonnées (`45.92, 6.87`, `45°55'N 6°52'E`, ou un lien Google Maps ou OpenStreetMap). Choisissez une zone de 20, 40 ou 60 km et regardez l'aperçu avant de jouer. Les hameaux de la Garde s'installent dans de vrais villages ; églises, chapelles, magasins, garages, gendarmeries et refuges servent comme dans le jeu ; les colonnes suivent les grandes routes et passent les rivières sur les ponts, que l'on peut faire sauter. Le téléchargement prend d'une demi-minute à deux minutes et demande une connexion Internet.
 - **Éditeur** : avant la partie, déplacez les hameaux, les installations de la Concession et les pistes ; ajoutez ou retirez des bâtiments ; postez des patrouilles ; choisissez le point de départ du commandant.
 - **Mes cartes** : gardez vos créations, **exportez-les** en fichier `.carte-guerilla.json` et **importez** celles des autres joueurs.
 
@@ -187,7 +187,7 @@ Sur un clavier **AZERTY**, les touches de déplacement sont **Z Q S D** et se pe
 
 ### Crédits et licences
 
-Île, personnages, récit, graphismes, sons et musique : création originale. Corps et visages dérivés de MakeHuman (CC0). Moteur 3D three.js (licence MIT). Polices Barlow Semi Condensed, Big Shoulders Display, Cormorant Garamond et Cormorant SC (SIL Open Font License 1.1). Cartes réelles : lieux © contributeurs OpenStreetMap (ODbL), relief Terrain Tiles (Mapzen, AWS Open Data) et leurs sources. La liste complète est dans le jeu : **Crédits et licences**, en bas de l'écran titre.
+Île, personnages, récit, graphismes, sons et musique : création originale. Corps et visages dérivés de MakeHuman (CC0). Moteur 3D three.js (licence MIT). Polices Barlow Semi Condensed, Big Shoulders Display, Cormorant Garamond et Cormorant SC (SIL Open Font License 1.1). Cartes réelles : lieux, bâtiments, routes, rivières, lacs, forêts, aérodromes et ponts © contributeurs OpenStreetMap (ODbL), relief Terrain Tiles (Mapzen, AWS Open Data) et leurs sources. La liste complète est dans le jeu : **Crédits et licences**, en bas de l'écran titre.
 
 © 2026 — tous droits réservés.
 
@@ -244,7 +244,7 @@ There is **only one file**. The full game is free; a **licence key** unlocks the
 #### Premium version
 
 - **Random island**: new terrain, hamlets and installations placed differently, and a random starting point. Each island has a number.
-- **Real-world map**: the terrain and villages of a real place. Type a name (Chamonix, Mont Ventoux, Lofoten…) or coordinates (`45.92, 6.87`, `45°55'N 6°52'E`, or a Google Maps or OpenStreetMap link). Choose a 20, 40 or 60 km area and preview the terrain before you play. An Internet connection is needed.
+- **Real-world map**: a real place as it is: the terrain, the villages and all their buildings (up to 6,000), roads and tracks, rivers, lakes, forests, airfields and bridges, from OpenStreetMap. Type a name (Chamonix, Mont Ventoux, Lofoten…) or coordinates (`45.92, 6.87`, `45°55'N 6°52'E`, or a Google Maps or OpenStreetMap link). Choose a 20, 40 or 60 km area and preview it before you play. The Guard's hamlets settle in real villages; churches, chapels, shops, garages, police stations and mountain huts work as they do in the game; enemy columns follow the main roads and cross rivers on bridges, which you can blow up. The download takes from half a minute to two minutes and needs an Internet connection.
 - **Editor**: before the game, move hamlets, Concession installations and airstrips; add or remove buildings; post patrols; choose where the commander starts.
 - **My maps** ("Mes cartes"): keep your creations, **export** them as `.carte-guerilla.json` files and **import** maps made by other players.
 
@@ -374,6 +374,6 @@ Movement keys follow their **position** on the keyboard: **W A S D** on QWERTY, 
 
 ### Credits and licences
 
-Island, characters, story, graphics, sounds and music: original work. Bodies and faces derived from MakeHuman (CC0). 3D engine three.js (MIT licence). Fonts Barlow Semi Condensed, Big Shoulders Display, Cormorant Garamond and Cormorant SC (SIL Open Font License 1.1). Real-world maps: places © OpenStreetMap contributors (ODbL), terrain from Terrain Tiles (Mapzen, AWS Open Data) and their sources. The full list is in the game: **Crédits et licences**, at the bottom of the title screen.
+Island, characters, story, graphics, sounds and music: original work. Bodies and faces derived from MakeHuman (CC0). 3D engine three.js (MIT licence). Fonts Barlow Semi Condensed, Big Shoulders Display, Cormorant Garamond and Cormorant SC (SIL Open Font License 1.1). Real-world maps: places, buildings, roads, rivers, lakes, forests, airfields and bridges © OpenStreetMap contributors (ODbL), terrain from Terrain Tiles (Mapzen, AWS Open Data) and their sources. The full list is in the game: **Crédits et licences**, at the bottom of the title screen.
 
 © 2026 — all rights reserved.
