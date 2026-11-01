@@ -1,3 +1,8 @@
+
+<img width="2560" height="1440" alt="guerilla_youtube_banniere_2560x1440" src="https://github.com/user-attachments/assets/7539917a-a24a-4ad5-8dda-7fdac2b483a9" />
+
+
+
 # Guérilla — Vetrarhríð
 
 *Nivôse: an island locked in ice, eight geothermal drill rigs, and a partisan war fought on skis.*
