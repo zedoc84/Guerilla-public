@@ -23,10 +23,10 @@ A turn-based strategy game played on a command map, combined with first-person 3
 
 The rulebook covers the whole game: the aim of the game, victory and defeat, difficulty levels, the free game, the Premium version, the editor, every control, a controls summary and an index.
 
-- **[Rulebook (English)](Guerilla-Rulebook-EN.html)**
-- **[Livret de règles (français)](Guerilla-Livret-de-regles-FR.html)**
+- **Read online**: [Rulebook (English)](https://zedoc84.github.io/Guerilla-public/Guerilla-Rulebook-EN.html) · [Livret de règles (français)](https://zedoc84.github.io/Guerilla-public/Guerilla-Livret-de-regles-FR.html)
+- **PDF**, to print or keep: [Guerilla-Rulebook-EN.pdf](Guerilla-Rulebook-EN.pdf) · [Guerilla-Livret-de-regles-FR.pdf](Guerilla-Livret-de-regles-FR.pdf)
 
-Each rulebook is a single HTML file. On GitHub, click the file, then **Download raw file**, and open it in any web browser, on a computer or a phone. It works offline.
+The online version works on a computer or a phone. It is a single page: save it from your browser to read it offline.
 
 The game also has its own manual: **How to play**, on the title screen and in the menu.
 
@@ -258,10 +258,10 @@ Jeu de stratégie au tour par tour sur une carte d'état-major, et de combat à 
 
 Le livret présente tout le jeu : le but du jeu, la victoire et la défaite, les niveaux de jeu, le jeu gratuit, la version Premium, l'éditeur, toutes les commandes, un récapitulatif des commandes et un index.
 
-- **[Livret de règles (français)](Guerilla-Livret-de-regles-FR.html)**
-- **[Rulebook (English)](Guerilla-Rulebook-EN.html)**
+- **Lire en ligne** : [Livret de règles (français)](https://zedoc84.github.io/Guerilla-public/Guerilla-Livret-de-regles-FR.html) · [Rulebook (English)](https://zedoc84.github.io/Guerilla-public/Guerilla-Rulebook-EN.html)
+- **PDF**, à imprimer ou à garder : [Guerilla-Livret-de-regles-FR.pdf](Guerilla-Livret-de-regles-FR.pdf) · [Guerilla-Rulebook-EN.pdf](Guerilla-Rulebook-EN.pdf)
 
-Chaque livret tient en un seul fichier HTML. Sur GitHub, cliquez sur le fichier, puis sur **Download raw file**, et ouvrez-le avec n'importe quel navigateur, sur ordinateur ou sur téléphone. Il fonctionne sans connexion.
+La version en ligne se lit sur ordinateur comme sur téléphone. C'est une seule page : enregistrez-la depuis votre navigateur pour la lire hors connexion.
 
 Le jeu a aussi son propre manuel : **Comment jouer**, sur l'écran titre et dans le menu.
 
