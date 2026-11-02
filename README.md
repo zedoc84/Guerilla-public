@@ -18,7 +18,7 @@
 
 A turn-based strategy game played on a command map, combined with first-person 3D combat. You lead the Hamlet Guard against the armored columns of the Concession, which wants to seize the geothermal drill rigs that keep the island warm.
 
-**Beta 0.10.3** · Mac and Windows · English and French · Studio Thelba · coming soon on Steam
+**Beta 1.0.1** · Mac and Windows · English and French · Studio Thelba · coming soon on Steam
 
 > The browser version (`Guerilla.html`) and the Mac app made from it no longer exist. Guérilla is now a native game for Mac and Windows, made with Unity.
 
@@ -43,8 +43,8 @@ Download: `[DOWNLOAD LINK]`
 
 | File | For |
 |---|---|
-| `Guerilla-Beta-0.10.3-Mac.zip` | Mac with Apple silicon (M1 and later) or Intel |
-| `Guerilla-Beta-0.10.3-Windows.zip` | Windows 10 or 11, 64-bit |
+| `Guerilla-Beta-1.0.1-Mac.zip` | Mac with Apple silicon (M1 and later) or Intel |
+| `Guerilla-Beta-1.0.1-Windows.zip` | Windows 10 or 11, 64-bit |
 
 You need a keyboard and mouse; a controller works in the 3D view. The game plays offline: only downloading a real map needs an Internet connection.
 
@@ -86,7 +86,7 @@ The base game is free and complete. Premium will be sold as a DLC on Steam ("Gu�
 - **32 recruits**, each with a home hamlet, skills, a story and ties to others.
 - **Four levels of winter severity** (Mild, Harsh, Severe, Deadly) and options: aircraft-guided mortars, attack fighter, fog of war, guided first mission.
 - **The daily challenge.**
-- **The command map and the 3D view**: first person, isometric view, behind the commander.
+- **The command map and the 3D view**: first person, isometric view (your recruit shows through roofs and trees), behind the commander.
 - **Autosave**, save slots, game export and import.
 
 #### Premium ★
@@ -96,6 +96,8 @@ The base game is free and complete. Premium will be sold as a DLC on Steam ("Gu�
 - **Real map**: any place in the world, from OpenStreetMap: the terrain, the villages and their real buildings, roads, rivers, lakes, forests, airfields and bridges. Type a name (Chamonix, Mont Ventoux, Lofoten…) or coordinates, and choose 20, 40 or 60 km. **City maps** (City 5 km or City 10 km) load every building, with passers-by, traffic, cars you can drive and famous monuments.
 - **Advanced campaign**: Krag's general staff answers every blow you strike.
 - **Ten more partisans**: 42 recruits instead of 32.
+- **Pickup truck**: one per garage (0 to 2 in the editor). It drives through the snow and up the slopes depending on the ground, carries up to four recruits in the back, who can fall off if you drive too fast, and changes travel on the command map.
+- **Ski plane**: a Harfang bush plane next to each mountain hut (0 to 2 in the editor). It takes off and lands anywhere flat (250 m of snow under 8 %, frozen lakes and sea ice included, never thin ice), and flies its pilot and up to three passengers anywhere on the map.
 - **Editor**: move hamlets, installations and airstrips, add or remove buildings, post patrols, set the commander's start, write a scenario, choose the starting recruits, and test any spot in 3D.
 - **My maps**: keep your maps, export them as `.carte-guerilla.json` files and import other players' maps.
 - **Stream Deck**: the "Guérilla Deck" plugin shows the game's state and controls it.
@@ -106,7 +108,7 @@ The base game is free and complete. Premium will be sold as a DLC on Steam ("Gu�
 
 - **Time**: each turn lasts two hours for each member of the Guard. Play them one after another, then **Synchronize watches**: the Concession takes its turn.
 - **Recruiting**: each islander only follows certain people (a brother, a fiancée, an old friend…).
-- **Getting around**: realistic skiing (about 5 km/h on the flat), on foot, by snowmobile or in tow, by cable car, hang glider and plane, with a parachute and an autopilot for landing.
+- **Getting around**: realistic skiing (about 5 km/h on the flat), on foot, by snowmobile or in tow, by cable car, hang glider and plane, with a parachute and an autopilot for landing. A snowmobile stays wherever you leave it, and anyone who can drive takes it back; you can jump out of a moving vehicle, or out of a cable car (mind the height).
 - **Fighting**: knife, 9 mm pistol, submachine gun, assault rifle, pump-action shotgun, scoped rifle, bazooka, grenades and charges. Stand, crouch or go prone, lean out from cover, shoot from a belfry. Only the bazooka and grenades stop a tank.
 - **Squad**: recruits in the same place follow you in 3D. Give them orders and carry a wounded comrade.
 - **Garrisons, prison and escape, trackers and dogs**; firing on the Guard or on islanders has consequences.
@@ -114,6 +116,7 @@ The base game is free and complete. Premium will be sold as a DLC on Steam ("Gu�
 - **Weather and survival**: snow, storms and fog come and go; cold, hunger, frostbite, avalanches and thin ice. Light a campfire or dig a snow shelter.
 - **Binoculars**: ×2 to ×16 zoom, night and thermal vision, rangefinder.
 - **Fog of war**: the map only shows what your recruits and friendly hamlets can see.
+- **A stylized winter**: faceted mountains with lavender rock and rocky spires above the cable cars, tiered snow-laden firs, restyled hamlets, cable cars and town cars.
 - **Winning**: blow up the Bastion, or destroy the tank plant and rout every column. You lose if the Concession holds all eight drill rigs, or if no one is left in the Guard.
 
 ---
@@ -156,6 +159,7 @@ The game follows the **position** of the keys: **W A S D** on QWERTY, **Z Q S D*
 | Knife strike | V | V |
 | Grenade | G | G |
 | Interact: door, islander, menu, vehicle, comrade, charge, telegraph | F | F |
+| Get out of a snowmobile, pickup or cable car · while moving: jump (twice within two seconds) | F F | F F |
 | Binoculars · night, thermal vision | J · N | J · N |
 | 3D view ↔ isometric view | Y | Y |
 | Light, smother a campfire | H | H |
@@ -181,9 +185,11 @@ The game follows the **position** of the keys: **W A S D** on QWERTY, **Z Q S D*
 
 | Action | QWERTY | AZERTY |
 |---|---|---|
-| Snowmobile, car: speed up · brake (car: reverse) | W · S | Z · S |
-| Snowmobile, car: turn | A / D | Q / D |
+| Snowmobile, car, pickup: speed up · brake (car, pickup: reverse) | W · S | Z · S |
+| Snowmobile, car, pickup: turn | A / D | Q / D |
 | Get in, get out (car), be towed | F | F |
+| Pickup: handbrake | Space | Espace |
+| Pickup, stopped: squad into the back, then out | E | E |
 | Hang glider: dive · pull up · bank | W · S · A / D | Z · S · Q / D |
 | Plane, cockpit: throttle | W / S | Z / S |
 | Plane, cockpit: bank · pull up, dive | A / D or ← → · ↑ ↓ | Q / D ou ← → · ↑ ↓ |
@@ -237,7 +243,7 @@ Design, the island of Nivôse, story and rules: original creation by Studio Thel
 
 - **Weapon and arm modeling**: Baptiste Barbe, 3D artist — [artstation.com/barbe_baptiste](https://www.artstation.com/barbe_baptiste)
 - **Characters and animals**: Toon Shooter Game Kit and animated animals by Quaternius (CC0); recruit heads and portraits by Studio Thelba.
-- **Scenery and vehicles**: Car Kit by Kenney (CC0); textures from Poly Haven and ambientCG (CC0).
+- **Town cars and pickup truck**: “Low Poly Vehicles – Optimized Package” by Awbmecreations (Unity Asset Store). **Textures**: Poly Haven and ambientCG (CC0).
 - **Fonts** (SIL Open Font License 1.1): Barlow Semi Condensed, Big Shoulders Display, Cormorant Garamond, Cormorant SC, Noto Sans Math, Noto Sans Symbols 2.
 - **Real maps**: places, buildings, roads, rivers, lakes, forests, airfields and bridges © OpenStreetMap contributors (ODbL); terrain from Terrain Tiles (Mapzen, AWS Open Data) and their sources; place search by Photon (komoot) and Nominatim.
 - Made with **Unity**; models prepared with **Blender**.
@@ -253,7 +259,7 @@ The full list is in the game: **Credits and licenses**, at the bottom of the tit
 
 Jeu de stratégie au tour par tour sur une carte d'état-major, et de combat à la première personne en 3D. Vous commandez la Garde des Hameaux contre les colonnes blindées de la Concession, qui veut s'emparer des forages géothermiques qui chauffent l'île.
 
-**Bêta 0.10.3** · Mac et Windows · français et anglais · Studio Thelba · bientôt sur Steam
+**Bêta 1.0.1** · Mac et Windows · français et anglais · Studio Thelba · bientôt sur Steam
 
 > La version navigateur (`Guerilla.html`) et l'application Mac qui en était tirée n'existent plus. Guérilla est désormais un jeu pour Mac et Windows, réalisé avec Unity.
 
@@ -278,8 +284,8 @@ Téléchargement : `[LIEN DE TÉLÉCHARGEMENT]`
 
 | Fichier | Pour |
 |---|---|
-| `Guerilla-Beta-0.10.3-Mac.zip` | Mac à puce Apple (M1 et suivants) ou Intel |
-| `Guerilla-Beta-0.10.3-Windows.zip` | Windows 10 ou 11, 64 bits |
+| `Guerilla-Beta-1.0.1-Mac.zip` | Mac à puce Apple (M1 et suivants) ou Intel |
+| `Guerilla-Beta-1.0.1-Windows.zip` | Windows 10 ou 11, 64 bits |
 
 Il faut un clavier et une souris ; une manette est reconnue en vue 3D. Le jeu fonctionne hors ligne : seul le téléchargement d'une carte réelle demande une connexion Internet.
 
@@ -321,7 +327,7 @@ Le jeu de base est gratuit et complet. La version Premium sera vendue en DLC sur
 - **32 recrues**, chacune avec son hameau, ses compétences, son histoire et ses liens.
 - **Quatre rigueurs de l'hiver** (Doux, Rude, Rigoureux, Mortel) et des options : mortiers guidés par avion, chasseur d'attaque, brouillard de guerre, première mission guidée.
 - **Le défi du jour.**
-- **La carte d'état-major et la vue 3D** : à la première personne, vue isométrique, derrière le commandant.
+- **La carte d'état-major et la vue 3D** : à la première personne, vue isométrique (votre recrue se voit à travers les toits et les sapins), derrière le commandant.
 - **Sauvegarde automatique**, emplacements de sauvegarde, export et import des parties.
 
 #### Version Premium ★
@@ -331,6 +337,8 @@ Le jeu de base est gratuit et complet. La version Premium sera vendue en DLC sur
 - **Carte réelle** : n'importe quel lieu du monde, d'après OpenStreetMap : le relief, les villages et leurs vrais bâtiments, les routes, rivières, lacs, forêts, aérodromes et ponts. Tapez un nom (Chamonix, mont Ventoux, Lofoten…) ou des coordonnées, et choisissez 20, 40 ou 60 km. Les **cartes de ville** (Ville 5 km ou Ville 10 km) chargent tous les bâtiments, avec passants, circulation, voitures à conduire et monuments célèbres.
 - **Campagne avancée** : l'état-major de Krag répond à chacun de vos coups.
 - **Dix partisans de plus** : 42 recrues au lieu de 32.
+- **Pick-up** : un par garage (de 0 à 2 dans l'éditeur). Il roule dans la neige et monte les pentes selon le sol, emmène jusqu'à quatre recrues à l'arrière, qui peuvent tomber si l'on roule trop vite, et change les trajets sur la carte d'état-major.
+- **Avion à skis** : un Harfang, avion de brousse, près de chaque refuge (de 0 à 2 dans l'éditeur). Il décolle et se pose partout où c'est plat (250 m de neige à moins de 8 %, lacs gelés et banquise compris, jamais la glace mince), et emmène son pilote et jusqu'à trois passagers n'importe où sur la carte.
 - **Éditeur** : déplacez hameaux, installations et pistes, ajoutez ou retirez des bâtiments, postez des patrouilles, choisissez le départ du commandant, écrivez un scénario, choisissez les recrues de départ, et testez n'importe quel endroit en 3D.
 - **Mes cartes** : gardez vos cartes, exportez-les en fichier `.carte-guerilla.json` et importez celles des autres joueurs.
 - **Stream Deck** : le plugin « Guérilla Deck » affiche l'état de la partie et la pilote.
@@ -341,7 +349,7 @@ Le jeu de base est gratuit et complet. La version Premium sera vendue en DLC sur
 
 - **Le temps** : chaque tour dure deux heures pour chaque membre de la Garde. Jouez-les l'un après l'autre, puis **Synchronisez les montres** : la Concession joue à son tour.
 - **Rallier** : chaque habitant ne suit que certaines personnes (un frère, une fiancée, un vieil ami…).
-- **Se déplacer** : un ski réaliste (environ 5 km/h sur le plat), à pied, en motoneige ou en remorque, en téléphérique, en deltaplane et en avion, avec parachute et pilote automatique pour l'atterrissage.
+- **Se déplacer** : un ski réaliste (environ 5 km/h sur le plat), à pied, en motoneige ou en remorque, en téléphérique, en deltaplane et en avion, avec parachute et pilote automatique pour l'atterrissage. Une motoneige reste là où on la laisse et toute recrue qui sait conduire la reprend ; on peut sauter d'un engin en marche, ou de la cabine du téléphérique (gare à la hauteur).
 - **Combattre** : couteau, pistolet 9 mm, pistolet-mitrailleur, fusil d'assaut, fusil à pompe, fusil à lunette, bazooka, grenades et charges. Debout, accroupi ou allongé, penché derrière un abri, ou en haut d'un clocher. Seuls le bazooka et les grenades arrêtent un char.
 - **L'escouade** : les recrues présentes au même endroit vous suivent en 3D. Donnez-leur des ordres et portez un camarade blessé.
 - **Garnisons, prison et évasion, pisteurs et chiens** ; tirer sur la Garde ou sur les habitants a des conséquences.
@@ -349,6 +357,7 @@ Le jeu de base est gratuit et complet. La version Premium sera vendue en DLC sur
 - **Météo et survie** : neige, tempête et brouillard vont et viennent ; froid, faim, engelures, avalanches et glace qui cède. Allumez un feu de camp ou creusez un abri de neige.
 - **Jumelles** : zoom de ×2 à ×16, vision nocturne et thermique, télémètre.
 - **Brouillard de guerre** : la carte ne montre que ce que voient vos recrues et les hameaux amis.
+- **Un hiver stylisé** : montagnes à facettes, roche lavande et aiguilles rocheuses au-dessus des téléphériques, sapins enneigés à étages, hameaux, téléphériques et voitures des villes redessinés.
 - **Gagner** : faites sauter le Bastion, ou détruisez l'usine d'engins et mettez en déroute toutes les colonnes. Vous perdez si la Concession tient les huit forages, ou s'il ne reste plus personne dans la Garde.
 
 ---
@@ -391,6 +400,7 @@ Le jeu suit la **position** des touches : **Z Q S D** sur un clavier AZERTY, **W
 | Coup de couteau | V | V |
 | Grenade | G | G |
 | Interagir : porte, habitant, menu, véhicule, camarade, charge, télégraphe | F | F |
+| Sortir d'une motoneige, d'un pick-up ou de la cabine · en marche : sauter (deux fois en deux secondes) | F F | F F |
 | Jumelles · vision nocturne, thermique | J · N | J · N |
 | Vue 3D ↔ vue isométrique | Y | Y |
 | Allumer, étouffer un feu de camp | H | H |
@@ -416,9 +426,11 @@ Le jeu suit la **position** des touches : **Z Q S D** sur un clavier AZERTY, **W
 
 | Action | AZERTY | QWERTY |
 |---|---|---|
-| Motoneige, voiture : accélérer · freiner (voiture : reculer) | Z · S | W · S |
-| Motoneige, voiture : tourner | Q / D | A / D |
+| Motoneige, voiture, pick-up : accélérer · freiner (voiture, pick-up : reculer) | Z · S | W · S |
+| Motoneige, voiture, pick-up : tourner | Q / D | A / D |
 | Monter, descendre (voiture), se faire remorquer | F | F |
+| Pick-up : frein à main | Espace | Space |
+| Pick-up à l'arrêt : faire monter l'escouade à l'arrière, puis descendre | E | E |
 | Deltaplane : piquer · cabrer · virer | Z · S · Q / D | W · S · A / D |
 | Avion, cockpit : gaz | Z / S | W / S |
 | Avion, cockpit : incliner · cabrer, piquer | Q / D ou ← → · ↑ ↓ | A / D or ← → · ↑ ↓ |
@@ -472,7 +484,7 @@ Conception, île de Nivôse, récit et règles : création originale de Studio T
 
 - **Modélisation des armes et des bras** : Baptiste Barbe, artiste 3D — [artstation.com/barbe_baptiste](https://www.artstation.com/barbe_baptiste)
 - **Personnages et animaux** : Toon Shooter Game Kit et animaux animés de Quaternius (CC0) ; têtes et portraits des recrues par Studio Thelba.
-- **Décor et véhicules** : Car Kit de Kenney (CC0) ; textures Poly Haven et ambientCG (CC0).
+- **Voitures des villes et pick-up** : « Low Poly Vehicles – Optimized Package » d'Awbmecreations (Unity Asset Store). **Textures** : Poly Haven et ambientCG (CC0).
 - **Polices** (SIL Open Font License 1.1) : Barlow Semi Condensed, Big Shoulders Display, Cormorant Garamond, Cormorant SC, Noto Sans Math, Noto Sans Symbols 2.
 - **Cartes réelles** : lieux, bâtiments, routes, rivières, lacs, forêts, aérodromes et ponts © contributeurs d'OpenStreetMap (ODbL) ; relief Terrain Tiles (Mapzen, AWS Open Data) et leurs sources ; recherche de lieux par Photon (komoot) et Nominatim.
 - Réalisé avec **Unity** ; modèles préparés avec **Blender**.
