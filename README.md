@@ -18,7 +18,7 @@
 
 A turn-based strategy game played on a command map, combined with first-person 3D combat. You lead the Hamlet Guard against the armored columns of the Concession, which wants to seize the geothermal drill rigs that keep the island warm.
 
-**Beta 1.0.1** · Mac and Windows · English and French · Studio Thelba · coming soon on Steam
+**Beta 1.0.2** · Mac and Windows · English and French · Studio Thelba · coming soon on Steam
 
 > The browser version (`Guerilla.html`) and the Mac app made from it no longer exist. Guérilla is now a native game for Mac and Windows, made with Unity.
 
@@ -26,7 +26,7 @@ A turn-based strategy game played on a command map, combined with first-person 3
 
 ### Rulebook
 
-The rulebook covers the whole game: the aim of the game, victory and defeat, difficulty levels, the free game, the Premium version, the editor, every control, a controls summary and an index.
+The rulebook covers the whole game: the aim of the game, victory and defeat, difficulty levels, the free game, what each recruit skill is for, the Premium version, the editor, every control, a controls summary and an index.
 
 - **Read online**: [Rulebook (English)](https://zedoc84.github.io/Guerilla-public/Guerilla-Rulebook-EN.html) · [Livret de règles (français)](https://zedoc84.github.io/Guerilla-public/Guerilla-Livret-de-regles-FR.html)
 - **PDF**, to print or keep: [Guerilla-Rulebook-EN.pdf](Guerilla-Rulebook-EN.pdf) · [Guerilla-Livret-de-regles-FR.pdf](Guerilla-Livret-de-regles-FR.pdf)
@@ -43,8 +43,8 @@ Download: `[DOWNLOAD LINK]`
 
 | File | For |
 |---|---|
-| `Guerilla-Beta-1.0.1-Mac.zip` | Mac with Apple silicon (M1 and later) or Intel |
-| `Guerilla-Beta-1.0.1-Windows.zip` | Windows 10 or 11, 64-bit |
+| `Guerilla-Beta-1.0.2-Mac.zip` | Mac with Apple silicon (M1 and later) or Intel |
+| `Guerilla-Beta-1.0.2-Windows.zip` | Windows 10 or 11, 64-bit |
 
 You need a keyboard and mouse; a controller works in the 3D view. The game plays offline: only downloading a real map needs an Internet connection.
 
@@ -259,7 +259,7 @@ The full list is in the game: **Credits and licenses**, at the bottom of the tit
 
 Jeu de stratégie au tour par tour sur une carte d'état-major, et de combat à la première personne en 3D. Vous commandez la Garde des Hameaux contre les colonnes blindées de la Concession, qui veut s'emparer des forages géothermiques qui chauffent l'île.
 
-**Bêta 1.0.1** · Mac et Windows · français et anglais · Studio Thelba · bientôt sur Steam
+**Bêta 1.0.2** · Mac et Windows · français et anglais · Studio Thelba · bientôt sur Steam
 
 > La version navigateur (`Guerilla.html`) et l'application Mac qui en était tirée n'existent plus. Guérilla est désormais un jeu pour Mac et Windows, réalisé avec Unity.
 
@@ -267,7 +267,7 @@ Jeu de stratégie au tour par tour sur une carte d'état-major, et de combat à 
 
 ### Livret de règles
 
-Le livret présente tout le jeu : le but du jeu, la victoire et la défaite, les niveaux de jeu, le jeu gratuit, la version Premium, l'éditeur, toutes les commandes, un récapitulatif des commandes et un index.
+Le livret présente tout le jeu : le but du jeu, la victoire et la défaite, les niveaux de jeu, le jeu gratuit, le rôle de chaque compétence des recrues, la version Premium, l'éditeur, toutes les commandes, un récapitulatif des commandes et un index.
 
 - **Lire en ligne** : [Livret de règles (français)](https://zedoc84.github.io/Guerilla-public/Guerilla-Livret-de-regles-FR.html) · [Rulebook (English)](https://zedoc84.github.io/Guerilla-public/Guerilla-Rulebook-EN.html)
 - **PDF**, à imprimer ou à garder : [Guerilla-Livret-de-regles-FR.pdf](Guerilla-Livret-de-regles-FR.pdf) · [Guerilla-Rulebook-EN.pdf](Guerilla-Rulebook-EN.pdf)
@@ -284,8 +284,8 @@ Téléchargement : `[LIEN DE TÉLÉCHARGEMENT]`
 
 | Fichier | Pour |
 |---|---|
-| `Guerilla-Beta-1.0.1-Mac.zip` | Mac à puce Apple (M1 et suivants) ou Intel |
-| `Guerilla-Beta-1.0.1-Windows.zip` | Windows 10 ou 11, 64 bits |
+| `Guerilla-Beta-1.0.2-Mac.zip` | Mac à puce Apple (M1 et suivants) ou Intel |
+| `Guerilla-Beta-1.0.2-Windows.zip` | Windows 10 ou 11, 64 bits |
 
 Il faut un clavier et une souris ; une manette est reconnue en vue 3D. Le jeu fonctionne hors ligne : seul le téléchargement d'une carte réelle demande une connexion Internet.
 
