@@ -18,7 +18,7 @@
 
 A turn-based strategy game played on a command map, combined with first-person 3D combat. You lead the Hamlet Guard against the armored columns of the Concession, which wants to seize the geothermal drill rigs that keep the island warm.
 
-**Beta 1.0.2** · Mac and Windows · English and French · Studio Thelba · coming soon on Steam
+**Beta 1.0.7** · Mac and Windows · English and French · Studio Thelba · coming soon on Steam and on the App Store (Mac, iPad, iPhone)
 
 > The browser version (`Guerilla.html`) and the Mac app made from it no longer exist. Guérilla is now a native game for Mac and Windows, made with Unity.
 
@@ -26,7 +26,7 @@ A turn-based strategy game played on a command map, combined with first-person 3
 
 ### Rulebook
 
-The rulebook covers the whole game: the aim of the game, victory and defeat, difficulty levels, the free game, what each recruit skill is for, the Premium version, the editor, every control, a controls summary and an index.
+The rulebook covers the whole game: the aim of the game, victory and defeat, difficulty levels, the base game, what each recruit skill is for, the full game, the editor, every control, a controls summary and an index.
 
 - **Read online**: [Rulebook (English)](https://zedoc84.github.io/Guerilla-public/Guerilla-Rulebook-EN.html) · [Livret de règles (français)](https://zedoc84.github.io/Guerilla-public/Guerilla-Livret-de-regles-FR.html)
 - **PDF**, to print or keep: [Guerilla-Rulebook-EN.pdf](Guerilla-Rulebook-EN.pdf) · [Guerilla-Livret-de-regles-FR.pdf](Guerilla-Livret-de-regles-FR.pdf)
@@ -43,8 +43,8 @@ Download: `[DOWNLOAD LINK]`
 
 | File | For |
 |---|---|
-| `Guerilla-Beta-1.0.2-Mac.zip` | Mac with Apple silicon (M1 and later) or Intel |
-| `Guerilla-Beta-1.0.2-Windows.zip` | Windows 10 or 11, 64-bit |
+| `Guerilla-Beta-1.0.7-Mac.zip` | Mac with Apple silicon (M1 and later) or Intel |
+| `Guerilla-Beta-1.0.7-Windows.zip` | Windows 10 or 11, 64-bit |
 
 You need a keyboard and mouse; a controller works in the 3D view. The game plays offline: only downloading a real map needs an Internet connection.
 
@@ -74,33 +74,40 @@ Games, settings and your maps stay on your computer, and carry over from one bet
 
 ---
 
-### Free game and Premium
+### Steam and the App Store
 
-The base game is free and complete. Premium will be sold as a DLC on Steam ("Guérilla — Premium"), and as a license key outside Steam.
+Guérilla is a single game: no Premium, no DLC, no license key.
 
-**In this beta, Premium is unlocked for everyone, with no key to enter.**
+- **On Steam** (Mac and Windows): the full game, paid from the start. No demo.
+- **On the App Store** (Mac, iPad and iPhone): a free download with **one whole game on Nivôse**, with all its content: the advanced campaign, the pickup truck, the ski plane and, on Mac, the Stream Deck. A **single in-app purchase**, "Full game", unlocks the rest: more games, the daily challenge, the other worlds, the ten new recruits, the editor and My maps, the real map and game import. It is valid on Mac, iPad and iPhone with the same Apple account.
 
-#### Free game
+The trial game saves and picks up again as often as you like, and carries on after the purchase.
+
+**This beta is the full game, with no key to enter.**
+
+#### The base game: Nivôse
 
 - **The island of Nivôse** and its whole campaign: 40 km across, fifteen hamlets, eight drill rigs, four Concession installations, the Brisante gorge, three cable cars, four airstrips.
 - **32 recruits**, each with a home hamlet, skills, a story and ties to others.
 - **Four levels of winter severity** (Mild, Harsh, Severe, Deadly) and options: aircraft-guided mortars, attack fighter, fog of war, guided first mission.
-- **The daily challenge.**
 - **The command map and the 3D view**: first person, isometric view (your recruit shows through roofs and trees), behind the commander.
 - **Autosave**, save slots, game export and import.
 
-#### Premium ★
+#### The full game adds
 
+- **As many games as you like**, and **the daily challenge**: the same game for everyone, every day.
 - **Random island**: new terrain, hamlets and installations placed differently, a random start; 40, 10 or 5 km across. Each island has a number; **Draw another island** offers a new one.
 - **Island of the day**: the same random island and the same rules for everyone, every day.
 - **Real map**: any place in the world, from OpenStreetMap: the terrain, the villages and their real buildings, roads, rivers, lakes, forests, airfields and bridges. Type a name (Chamonix, Mont Ventoux, Lofoten…) or coordinates, and choose 20, 40 or 60 km. **City maps** (City 5 km or City 10 km) load every building, with passers-by, traffic, cars you can drive and famous monuments.
 - **Advanced campaign**: Krag's general staff answers every blow you strike.
 - **Ten more partisans**: 42 recruits instead of 32.
-- **Pickup truck**: one per garage (0 to 2 in the editor). It drives through the snow and up the slopes depending on the ground, carries up to four recruits in the back, who can fall off if you drive too fast, and changes travel on the command map.
+- **Pickup truck**: one per garage (0 to 2 in the editor). It drives through the snow and up the slopes depending on the ground, carries up to four recruits in the back, who can fall off if you drive too fast, and changes travel on the command map: those who ride together leave and arrive together. Left out in the field, it can be shot up or blown up.
 - **Ski plane**: a Harfang bush plane next to each mountain hut (0 to 2 in the editor). It takes off and lands anywhere flat (250 m of snow under 8 %, frozen lakes and sea ice included, never thin ice), and flies its pilot and up to three passengers anywhere on the map.
 - **Editor**: move hamlets, installations and airstrips, add or remove buildings, post patrols, set the commander's start, write a scenario, choose the starting recruits, and test any spot in 3D.
 - **My maps**: keep your maps, export them as `.carte-guerilla.json` files and import other players' maps.
-- **Stream Deck**: the "Guérilla Deck" plugin shows the game's state and controls it.
+- **Stream Deck** (Mac and Windows): the "Guérilla Deck" plugin shows the game's state and controls it.
+
+On the App Store, the trial game on Nivôse already includes the advanced campaign, the pickup truck, the ski plane and, on Mac, the Stream Deck.
 
 ---
 
@@ -109,7 +116,7 @@ The base game is free and complete. Premium will be sold as a DLC on Steam ("Gu�
 - **Time**: each turn lasts two hours for each member of the Guard. Play them one after another, then **Synchronize watches**: the Concession takes its turn.
 - **Recruiting**: each islander only follows certain people (a brother, a fiancée, an old friend…).
 - **Getting around**: realistic skiing (about 5 km/h on the flat), on foot, by snowmobile or in tow, by cable car, hang glider and plane, with a parachute and an autopilot for landing. A snowmobile stays wherever you leave it, and anyone who can drive takes it back; you can jump out of a moving vehicle, or out of a cable car (mind the height).
-- **Fighting**: knife, 9 mm pistol, submachine gun, assault rifle, pump-action shotgun, scoped rifle, bazooka, grenades and charges. Stand, crouch or go prone, lean out from cover, shoot from a belfry. Only the bazooka and grenades stop a tank.
+- **Fighting**: knife, 9 mm pistol, submachine gun, assault rifle, pump-action shotgun, scoped rifle, bazooka, grenades and charges. Stand, crouch or go prone, lean out from cover, shoot from a belfry. Only the bazooka and grenades stop a tank. Grenades are aimed: the game freezes and a ring shows where they will land. They also bring down Concession buildings: from 3 grenades (workshop) to 8 (synthesis plant), and 3 for a house in a hamlet the Concession holds.
 - **Squad**: recruits in the same place follow you in 3D. Give them orders and carry a wounded comrade.
 - **Garrisons, prison and escape, trackers and dogs**; firing on the Guard or on islanders has consequences.
 - **Sabotage**: telegraph lines, the Brisante bridges, the depot, the tank plant, the radio relay, guard posts.
@@ -157,7 +164,7 @@ The game follows the **position** of the keys: **W A S D** on QWERTY, **Z Q S D*
 | Reload | R | R |
 | Fire mode | B | B |
 | Knife strike | V | V |
-| Grenade | G | G |
+| Grenade: aim (the game freezes, the ring follows the mouse) · throw · keep it | G · left click · right click or Esc | G · clic gauche · clic droit ou Échap |
 | Interact: door, islander, menu, vehicle, comrade, charge, telegraph | F | F |
 | Get out of a snowmobile, pickup or cable car · while moving: jump (twice within two seconds) | F F | F F |
 | Binoculars · night, thermal vision | J · N | J · N |
@@ -176,10 +183,12 @@ The game follows the **position** of the keys: **W A S D** on QWERTY, **Z Q S D*
 | Action | Control |
 |---|---|
 | Move · fire | click the ground · click an enemy |
+| Move toward the pointer (on foot you stop when you let go; on skis and in vehicles you coast on) | hold left click |
+| Brake; when stopped, in a vehicle, reverse | right click |
+| Go toward the top, left, bottom or right of the screen · run · reverse when stopped | W A S D (Z Q S D on AZERTY) · Shift · Space |
 | Camera, zoom | arrows, mouse wheel |
 | Camera behind the commander | B |
-| Grenade · aim at the enemy under the cursor | G · V |
-| Take back control | W A S D (Z Q S D on AZERTY) |
+| Aimed grenade (the ring starts under the pointer) · aim at the enemy under the cursor | G · V |
 
 #### Vehicles, plane and parachute
 
@@ -213,9 +222,11 @@ The game follows the **position** of the keys: **W A S D** on QWERTY, **Z Q S D*
 | Next weapon · previous, next weapon | Y · D-pad ← → |
 | Fire mode · knife strike (with binoculars: zoom) | D-pad ↑ · D-pad ↓ |
 | Aim · fire | left trigger · right trigger |
-| Grenade · binoculars | left bumper · right bumper |
+| Grenade (hold: aim with the right stick · release: throw · B: keep it) · binoculars | left bumper · right bumper |
 | Fast time · campfire | left stick click · right stick click |
 | Map · pause | View (Select) · Menu (Start) |
+
+In isometric view, the left stick pushes toward the direction on screen; the **Movement in outside view** setting (title screen and menu) switches between *Toward the screen* and *Like the vehicle*, for the controller, the keyboard and the mouse.
 
 #### Editor
 
@@ -259,7 +270,7 @@ The full list is in the game: **Credits and licenses**, at the bottom of the tit
 
 Jeu de stratégie au tour par tour sur une carte d'état-major, et de combat à la première personne en 3D. Vous commandez la Garde des Hameaux contre les colonnes blindées de la Concession, qui veut s'emparer des forages géothermiques qui chauffent l'île.
 
-**Bêta 1.0.2** · Mac et Windows · français et anglais · Studio Thelba · bientôt sur Steam
+**Bêta 1.0.7** · Mac et Windows · français et anglais · Studio Thelba · bientôt sur Steam et sur l'App Store (Mac, iPad, iPhone)
 
 > La version navigateur (`Guerilla.html`) et l'application Mac qui en était tirée n'existent plus. Guérilla est désormais un jeu pour Mac et Windows, réalisé avec Unity.
 
@@ -267,7 +278,7 @@ Jeu de stratégie au tour par tour sur une carte d'état-major, et de combat à 
 
 ### Livret de règles
 
-Le livret présente tout le jeu : le but du jeu, la victoire et la défaite, les niveaux de jeu, le jeu gratuit, le rôle de chaque compétence des recrues, la version Premium, l'éditeur, toutes les commandes, un récapitulatif des commandes et un index.
+Le livret présente tout le jeu : le but du jeu, la victoire et la défaite, les niveaux de jeu, le jeu de base, le rôle de chaque compétence des recrues, le jeu complet, l'éditeur, toutes les commandes, un récapitulatif des commandes et un index.
 
 - **Lire en ligne** : [Livret de règles (français)](https://zedoc84.github.io/Guerilla-public/Guerilla-Livret-de-regles-FR.html) · [Rulebook (English)](https://zedoc84.github.io/Guerilla-public/Guerilla-Rulebook-EN.html)
 - **PDF**, à imprimer ou à garder : [Guerilla-Livret-de-regles-FR.pdf](Guerilla-Livret-de-regles-FR.pdf) · [Guerilla-Rulebook-EN.pdf](Guerilla-Rulebook-EN.pdf)
@@ -284,8 +295,8 @@ Téléchargement : `[LIEN DE TÉLÉCHARGEMENT]`
 
 | Fichier | Pour |
 |---|---|
-| `Guerilla-Beta-1.0.2-Mac.zip` | Mac à puce Apple (M1 et suivants) ou Intel |
-| `Guerilla-Beta-1.0.2-Windows.zip` | Windows 10 ou 11, 64 bits |
+| `Guerilla-Beta-1.0.7-Mac.zip` | Mac à puce Apple (M1 et suivants) ou Intel |
+| `Guerilla-Beta-1.0.7-Windows.zip` | Windows 10 ou 11, 64 bits |
 
 Il faut un clavier et une souris ; une manette est reconnue en vue 3D. Le jeu fonctionne hors ligne : seul le téléchargement d'une carte réelle demande une connexion Internet.
 
@@ -315,33 +326,40 @@ Les parties, les réglages et vos cartes restent sur votre ordinateur et sont re
 
 ---
 
-### Jeu gratuit et version Premium
+### Steam et l'App Store
 
-Le jeu de base est gratuit et complet. La version Premium sera vendue en DLC sur Steam (« Guérilla — Premium ») et sous forme de clé de licence hors de Steam.
+Guérilla est un seul jeu : pas de version Premium, pas de DLC, pas de clé de licence.
 
-**Dans cette bêta, la version Premium est ouverte à tous, sans clé à saisir.**
+- **Sur Steam** (Mac et Windows) : le jeu complet, payant dès le départ. Pas de démo.
+- **Sur l'App Store** (Mac, iPad et iPhone) : un téléchargement gratuit avec **une partie entière sur Nivôse**, avec tout son contenu : la campagne avancée, le pick-up, l'avion à skis et, sur Mac, le Stream Deck. Un **achat intégré unique**, « Jeu complet », débloque le reste : d'autres parties, le défi du jour, les autres mondes, les dix nouvelles recrues, l'éditeur et « Mes cartes », la carte réelle et l'import des parties. Il vaut sur Mac, iPad et iPhone avec le même compte Apple.
 
-#### Jeu gratuit
+La partie d'essai se sauvegarde et se reprend autant qu'on veut, et se poursuit après l'achat.
+
+**Cette bêta est le jeu complet, sans clé à saisir.**
+
+#### Le jeu de base : Nivôse
 
 - **L'île de Nivôse** et toute sa campagne : 40 km de côté, quinze hameaux, huit forages, quatre installations de la Concession, la gorge de la Brisante, trois téléphériques, quatre pistes d'aviation.
 - **32 recrues**, chacune avec son hameau, ses compétences, son histoire et ses liens.
 - **Quatre rigueurs de l'hiver** (Doux, Rude, Rigoureux, Mortel) et des options : mortiers guidés par avion, chasseur d'attaque, brouillard de guerre, première mission guidée.
-- **Le défi du jour.**
 - **La carte d'état-major et la vue 3D** : à la première personne, vue isométrique (votre recrue se voit à travers les toits et les sapins), derrière le commandant.
 - **Sauvegarde automatique**, emplacements de sauvegarde, export et import des parties.
 
-#### Version Premium ★
+#### Ce qu'ajoute le jeu complet
 
+- **Autant de parties que vous voulez**, et **le défi du jour** : la même partie pour tout le monde, chaque jour.
 - **Île aléatoire** : un relief neuf, des hameaux et des installations répartis autrement, un départ tiré au sort ; 40, 10 ou 5 km de côté. Chaque île porte un numéro ; **Tirer une autre île** en propose une nouvelle.
 - **Île du jour** : la même île aléatoire et les mêmes règles pour tout le monde, chaque jour.
 - **Carte réelle** : n'importe quel lieu du monde, d'après OpenStreetMap : le relief, les villages et leurs vrais bâtiments, les routes, rivières, lacs, forêts, aérodromes et ponts. Tapez un nom (Chamonix, mont Ventoux, Lofoten…) ou des coordonnées, et choisissez 20, 40 ou 60 km. Les **cartes de ville** (Ville 5 km ou Ville 10 km) chargent tous les bâtiments, avec passants, circulation, voitures à conduire et monuments célèbres.
 - **Campagne avancée** : l'état-major de Krag répond à chacun de vos coups.
 - **Dix partisans de plus** : 42 recrues au lieu de 32.
-- **Pick-up** : un par garage (de 0 à 2 dans l'éditeur). Il roule dans la neige et monte les pentes selon le sol, emmène jusqu'à quatre recrues à l'arrière, qui peuvent tomber si l'on roule trop vite, et change les trajets sur la carte d'état-major.
+- **Pick-up** : un par garage (de 0 à 2 dans l'éditeur). Il roule dans la neige et monte les pentes selon le sol, emmène jusqu'à quatre recrues à l'arrière, qui peuvent tomber si l'on roule trop vite, et change les trajets sur la carte d'état-major : ceux qui voyagent ensemble partent et arrivent ensemble. Laissé en campagne, il craint les balles et les explosions.
 - **Avion à skis** : un Harfang, avion de brousse, près de chaque refuge (de 0 à 2 dans l'éditeur). Il décolle et se pose partout où c'est plat (250 m de neige à moins de 8 %, lacs gelés et banquise compris, jamais la glace mince), et emmène son pilote et jusqu'à trois passagers n'importe où sur la carte.
 - **Éditeur** : déplacez hameaux, installations et pistes, ajoutez ou retirez des bâtiments, postez des patrouilles, choisissez le départ du commandant, écrivez un scénario, choisissez les recrues de départ, et testez n'importe quel endroit en 3D.
 - **Mes cartes** : gardez vos cartes, exportez-les en fichier `.carte-guerilla.json` et importez celles des autres joueurs.
-- **Stream Deck** : le plugin « Guérilla Deck » affiche l'état de la partie et la pilote.
+- **Stream Deck** (Mac et Windows) : le plugin « Guérilla Deck » affiche l'état de la partie et la pilote.
+
+Sur l'App Store, la partie d'essai sur Nivôse comprend déjà la campagne avancée, le pick-up, l'avion à skis et, sur Mac, le Stream Deck.
 
 ---
 
@@ -350,7 +368,7 @@ Le jeu de base est gratuit et complet. La version Premium sera vendue en DLC sur
 - **Le temps** : chaque tour dure deux heures pour chaque membre de la Garde. Jouez-les l'un après l'autre, puis **Synchronisez les montres** : la Concession joue à son tour.
 - **Rallier** : chaque habitant ne suit que certaines personnes (un frère, une fiancée, un vieil ami…).
 - **Se déplacer** : un ski réaliste (environ 5 km/h sur le plat), à pied, en motoneige ou en remorque, en téléphérique, en deltaplane et en avion, avec parachute et pilote automatique pour l'atterrissage. Une motoneige reste là où on la laisse et toute recrue qui sait conduire la reprend ; on peut sauter d'un engin en marche, ou de la cabine du téléphérique (gare à la hauteur).
-- **Combattre** : couteau, pistolet 9 mm, pistolet-mitrailleur, fusil d'assaut, fusil à pompe, fusil à lunette, bazooka, grenades et charges. Debout, accroupi ou allongé, penché derrière un abri, ou en haut d'un clocher. Seuls le bazooka et les grenades arrêtent un char.
+- **Combattre** : couteau, pistolet 9 mm, pistolet-mitrailleur, fusil d'assaut, fusil à pompe, fusil à lunette, bazooka, grenades et charges. Debout, accroupi ou allongé, penché derrière un abri, ou en haut d'un clocher. Seuls le bazooka et les grenades arrêtent un char. Les grenades se visent : le jeu se fige et un rond montre où elles tomberont. Elles font aussi sauter les bâtiments de la Concession : de 3 grenades (atelier) à 8 (usine de synthèse), et 3 pour une maison d'un hameau qu'elle tient.
 - **L'escouade** : les recrues présentes au même endroit vous suivent en 3D. Donnez-leur des ordres et portez un camarade blessé.
 - **Garnisons, prison et évasion, pisteurs et chiens** ; tirer sur la Garde ou sur les habitants a des conséquences.
 - **Sabotage** : lignes télégraphiques, ponts de la Brisante, dépôt, usine d'engins, relais radio, postes de garde.
@@ -398,7 +416,7 @@ Le jeu suit la **position** des touches : **Z Q S D** sur un clavier AZERTY, **W
 | Recharger | R | R |
 | Mode de tir | B | B |
 | Coup de couteau | V | V |
-| Grenade | G | G |
+| Grenade : viser (le jeu se fige, le rond suit la souris) · lancer · la garder | G · clic gauche · clic droit ou Échap | G · left click · right click or Esc |
 | Interagir : porte, habitant, menu, véhicule, camarade, charge, télégraphe | F | F |
 | Sortir d'une motoneige, d'un pick-up ou de la cabine · en marche : sauter (deux fois en deux secondes) | F F | F F |
 | Jumelles · vision nocturne, thermique | J · N | J · N |
@@ -417,10 +435,12 @@ Le jeu suit la **position** des touches : **Z Q S D** sur un clavier AZERTY, **W
 | Action | Commande |
 |---|---|
 | Aller · tirer | clic au sol · clic sur l'ennemi |
+| Avancer vers le pointeur (relâché : à pied on s'arrête, à skis et en engin on file sur l'élan) | clic gauche tenu |
+| Freiner ; à l'arrêt, en engin, reculer | clic droit |
+| Aller vers le haut, la gauche, le bas ou la droite de l'écran · courir · reculer à l'arrêt | Z Q S D (W A S D en QWERTY) · Maj · Espace |
 | Caméra, zoom | flèches, molette |
 | Caméra derrière le commandant | B |
-| Grenade · viser l'ennemi survolé | G · V |
-| Reprendre la main | Z Q S D (W A S D en QWERTY) |
+| Grenade visée (le rond part sous le pointeur) · viser l'ennemi survolé | G · V |
 
 #### Véhicules, avion et parachute
 
@@ -454,9 +474,11 @@ Le jeu suit la **position** des touches : **Z Q S D** sur un clavier AZERTY, **W
 | Arme suivante · arme précédente, suivante | Y · croix ← → |
 | Mode de tir · coup de couteau (aux jumelles : zoom) | croix ↑ · croix ↓ |
 | Viser · tirer | gâchette gauche · gâchette droite |
-| Grenade · jumelles | bouton gauche · bouton droit |
+| Grenade (tenu : viser au stick droit · relâché : lancer · B : la garder) · jumelles | bouton gauche · bouton droit |
 | Temps accéléré · feu de camp | clic du stick gauche · clic du stick droit |
 | Carte · pause | Vue (Select) · Menu (Start) |
+
+En vue isométrique, le stick gauche pousse vers la direction de l'écran ; le réglage **Déplacements en vue extérieure** (écran titre et menu) choisit entre *Vers l'écran* et *Comme l'engin*, pour la manette, le clavier et la souris.
 
 #### Éditeur
 
