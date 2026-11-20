@@ -141,7 +141,7 @@ Games, settings and your maps stay on your computer, and carry over from one bet
 - **Life on the island**: windsocks and pennants follow the real wind, campfires and sleds mark the villages the Guard holds, crates and pennants those of the Concession; fishing huts on the frozen lakes, marked trails, snow fences.
 - **Binoculars**: ×2 to ×16 zoom, night and thermal vision, rangefinder.
 - **Fog of war**: the map only shows what your recruits and friendly hamlets can see.
-- **A comic-book winter**: the clear-line style over the whole island, with faceted mountains and rocky spires above the cable cars, tiered snow-laden firs, restyled hamlets, cable cars and town cars.
+- **A comic-book winter**: the clear-line style over the whole island, with faceted mountains and rocky spires above the cable cars, tiered snow-laden firs, restyled hamlets, cable cars and town cars. Islanders and recruits speak in speech bubbles, and a caption box names each place as you arrive.
 - **Winning**: blow up the Bastion, or destroy the tank plant and rout every column. You lose if the Concession holds all eight drill rigs, or if no one is left in the Guard.
 
 ---
@@ -415,7 +415,7 @@ Les parties, les réglages et vos cartes restent sur votre ordinateur et sont re
 - **La vie de l'île** : manches à air et fanions suivent le vrai vent, feux de camp et traîneaux signalent les villages tenus par la Garde, caisses et fanions ceux de la Concession ; cabanes de pêche sur les lacs gelés, chemins balisés, clôtures à neige.
 - **Jumelles** : zoom de ×2 à ×16, vision nocturne et thermique, télémètre.
 - **Brouillard de guerre** : la carte ne montre que ce que voient vos recrues et les hameaux amis.
-- **Un hiver de bande dessinée** : la ligne claire sur toute l'île, avec des montagnes à facettes et des aiguilles rocheuses au-dessus des téléphériques, des sapins enneigés à étages, des hameaux, des téléphériques et des voitures des villes redessinés.
+- **Un hiver de bande dessinée** : la ligne claire sur toute l'île, avec des montagnes à facettes et des aiguilles rocheuses au-dessus des téléphériques, des sapins enneigés à étages, des hameaux, des téléphériques et des voitures des villes redessinés. Habitants et recrues parlent dans des bulles, et un cartouche donne le nom de chaque lieu à l'arrivée.
 - **Gagner** : faites sauter le Bastion, ou détruisez l'usine d'engins et mettez en déroute toutes les colonnes. Vous perdez si la Concession tient les huit forages, ou s'il ne reste plus personne dans la Garde.
 
 ---
