@@ -12,9 +12,9 @@
 **[English](#en)** · **[Français](#fr)**
 
 <p>
-<img width="32%" alt="Saint-Aube at dusk" src="images/saint-aube-crepuscule.jpg" />
-<img width="32%" alt="Hang glider over the snow" src="images/deltaplane.jpg" />
-<img width="32%" alt="Frozen lake and fishing huts" src="images/lac-gele.jpg" />
+<img width="32%" alt="Saint-Aube at dusk" src="bd-saint-aube-crepuscule.jpg" />
+<img width="32%" alt="Hang glider over the snow" src="bd-deltaplane.jpg" />
+<img width="32%" alt="Frozen lake and fishing huts" src="bd-lac-gele.jpg" />
 </p>
 
 ---
