@@ -32,7 +32,7 @@ A turn-based strategy game played on a command map, combined with first-person 3
 
 ### Rulebook
 
-The rulebook covers the whole game: the aim of the game, victory and defeat, difficulty levels, the free game, what each recruit skill is for, wildlife, the Premium Pack, the editor, every control, a controls summary and an index. **Tip** boxes along the way give players' advice: how to approach a post, when to sabotage, how to stay out of sight.
+The rulebook covers the whole game: the aim of the game, victory and defeat, difficulty levels, the free game, what each recruit skill is for, wildlife, the Premium Pack, the Duel and the Raid, the editor, every control, a controls summary and an index. **Tip** boxes along the way give players' advice: how to approach a post, when to sabotage, how to stay out of sight.
 
 - **Read online**: [Rulebook (English)](https://zedoc84.github.io/Guerilla-public/Guerilla-Rulebook-EN.html) · [Livret de règles (français)](https://zedoc84.github.io/Guerilla-public/Guerilla-Livret-de-regles-FR.html)
 - **PDF**, to print or keep: [Guerilla-Rulebook-EN.pdf](Guerilla-Rulebook-EN.pdf) · [Guerilla-Livret-de-regles-FR.pdf](Guerilla-Livret-de-regles-FR.pdf)
@@ -68,7 +68,7 @@ The game also has its own manual: **How to play**, on the title screen and in th
 - **Ten more partisans**: 42 recruits instead of 32.
 - **Pickup truck**: one per garage (0 to 2 in the editor). It drives through the snow and up the slopes depending on the ground, carries up to four recruits in the back, who can fall off if you drive too fast, and changes travel on the command map: those who ride together leave and arrive together. Left out in the field, it can be shot up or blown up.
 - **Ski plane**: a Harfang bush plane next to each mountain hut (0 to 2 in the editor). It takes off and lands anywhere flat (250 m of snow under 8 %, frozen lakes and sea ice included, never thin ice), and flies its pilot and up to three passengers anywhere on the map.
-- **The Raid** (coming soon): an operation of about an hour with your squad, in three acts (preparation, action, withdrawal), and the **duel of the day**.
+- **The Raid**: an operation of about an hour with your squad, in three acts (preparation, action, retreat), and the **daily duel**.
 - **Editor**: move hamlets, installations and airstrips, add or remove buildings, post patrols, set the commander's start, write a scenario, choose the starting recruits, and test any spot in 3D.
 - **My maps**: keep your maps, export them as `.carte-guerilla.json` files and import other players' maps.
 - **Stream Deck** (Mac and Windows): the plugin shows the game's state and controls it.
@@ -82,8 +82,8 @@ The same engine carries other eras, each sold on its own, separately from the Pr
 ### Game modes
 
 - **Campaign**: the whole war for the island, turn by turn on the command map and in 3D on the ground. Classic in the free game, Advanced with the Premium Pack.
-- **Duel** (10–15 min, free): your hero alone against an AI rival on a small arena, in two winning rounds out of three. Pick a weapon and an item from three cards, track your rival by footprints, noise and smoke, and beat the blizzard that shrinks the arena; if you are both still standing, it ends face to face.
-- **Raid** (about 1 hour, Premium Pack, coming soon): your hero and two or three recruits on a single operation, such as a convoy ambush, a sabotage or the defense of a village.
+- **Duel** (10–15 min, free): your hero alone against an AI rival on a small arena, in two winning rounds out of three. Pick a weapon and an item from three cards, track your rival by footprints, noise and gunfire, and beat the blizzard that shrinks the arena; if you are both still standing, it ends face to face. Climb a ladder of ten rivals, each with his own style, unlock four hero skills, replay any rival you have beaten, or play 3 vs 3 and 5 vs 5 with recruits from the campaign.
+- **Raid** (about 1 hour, Premium Pack): your commander and three recruits on a single operation, in three acts: preparation, action, retreat. An alarm gauge brings in reinforcements if you make too much noise. Three scenarios on Nivôse: convoy ambush, sabotage of the Guet relay, defence of Saint-Aube. Medals unlock constraints (pitch dark, short on ammo, lone wolf), and you can save mid-raid.
 
 ---
 
@@ -283,7 +283,7 @@ Design, the island of Nivôse, story and rules: original creation by Studio Thel
 - **Characters, animals and nature**: Toon Shooter Game Kit, Ultimate Animated Animals, Ultimate Nature Pack and Survival Pack by Quaternius (CC0); recruit heads and portraits, and the details of life on the island, by Studio Thelba.
 - **Signpost**: Direction_Wood_2, from "Into The Wild" by Atomic Realm.
 - **Town cars and pickup truck**: “Low Poly Vehicles – Optimized Package” by Awbmecreations (Unity Asset Store). **Textures**: Poly Haven and ambientCG (CC0).
-- **Fonts** (SIL Open Font License 1.1): Barlow Semi Condensed, Big Shoulders Display, Cormorant Garamond, Cormorant SC, Noto Sans Math, Noto Sans Symbols 2.
+- **Fonts** (SIL Open Font License 1.1): Bangers, Barlow Semi Condensed, Big Shoulders Display, Comic Neue, Cormorant Garamond, Cormorant SC, Noto Sans Math, Noto Sans Symbols 2.
 - **Real maps**: places, buildings, roads, rivers, lakes, forests, airfields and bridges © OpenStreetMap contributors (ODbL); terrain from Terrain Tiles (Mapzen, AWS Open Data) and their sources; place search by Photon (komoot) and Nominatim.
 - Made with **Unity**; models prepared with **Blender**.
 
@@ -306,7 +306,7 @@ Jeu de stratégie au tour par tour sur une carte d'état-major, et de combat à 
 
 ### Livret de règles
 
-Le livret présente tout le jeu : le but du jeu, la victoire et la défaite, les niveaux de jeu, le jeu gratuit, le rôle de chaque compétence des recrues, la faune, le Pack Premium, l'éditeur, toutes les commandes, un récapitulatif des commandes et un index. Au fil des chapitres, des encadrés **Conseil** donnent des astuces de joueur : comment approcher un poste, quand saboter, comment rester hors de vue.
+Le livret présente tout le jeu : le but du jeu, la victoire et la défaite, les niveaux de jeu, le jeu gratuit, le rôle de chaque compétence des recrues, la faune, le Pack Premium, le Duel et le Coup de main, l'éditeur, toutes les commandes, un récapitulatif des commandes et un index. Au fil des chapitres, des encadrés **Conseil** donnent des astuces de joueur : comment approcher un poste, quand saboter, comment rester hors de vue.
 
 - **Lire en ligne** : [Livret de règles (français)](https://zedoc84.github.io/Guerilla-public/Guerilla-Livret-de-regles-FR.html) · [Rulebook (English)](https://zedoc84.github.io/Guerilla-public/Guerilla-Rulebook-EN.html)
 - **PDF**, à imprimer ou à garder : [Guerilla-Livret-de-regles-FR.pdf](Guerilla-Livret-de-regles-FR.pdf) · [Guerilla-Rulebook-EN.pdf](Guerilla-Rulebook-EN.pdf)
@@ -342,7 +342,7 @@ Le jeu a aussi son propre manuel : **Comment jouer**, sur l'écran titre et dans
 - **Dix partisans de plus** : 42 recrues au lieu de 32.
 - **Pick-up** : un par garage (de 0 à 2 dans l'éditeur). Il roule dans la neige et monte les pentes selon le sol, emmène jusqu'à quatre recrues à l'arrière, qui peuvent tomber si l'on roule trop vite, et change les trajets sur la carte d'état-major : ceux qui voyagent ensemble partent et arrivent ensemble. Laissé en campagne, il craint les balles et les explosions.
 - **Avion à skis** : un Harfang, avion de brousse, près de chaque refuge (de 0 à 2 dans l'éditeur). Il décolle et se pose partout où c'est plat (250 m de neige à moins de 8 %, lacs gelés et banquise compris, jamais la glace mince), et emmène son pilote et jusqu'à trois passagers n'importe où sur la carte.
-- **Le Coup de main** (bientôt) : une opération d'environ une heure avec votre escouade, en trois actes (préparation, action, repli), et le **duel du jour**.
+- **Le Coup de main** : une opération d'environ une heure avec votre escouade, en trois actes (préparation, action, repli), et le **duel du jour**.
 - **Éditeur** : déplacez hameaux, installations et pistes, ajoutez ou retirez des bâtiments, postez des patrouilles, choisissez le départ du commandant, écrivez un scénario, choisissez les recrues de départ, et testez n'importe quel endroit en 3D.
 - **Mes cartes** : gardez vos cartes, exportez-les en fichier `.carte-guerilla.json` et importez celles des autres joueurs.
 - **Stream Deck** (Mac et Windows) : le plugin affiche l'état de la partie et la pilote.
@@ -356,8 +356,8 @@ Le même moteur porte d'autres époques, vendues chacune à part, indépendammen
 ### Les modes de jeu
 
 - **Campagne** : toute la guerre pour l'île, au tour par tour sur la carte d'état-major et en 3D sur le terrain. Classique dans le jeu gratuit, Avancée avec le Pack Premium.
-- **Duel** (10 à 15 min, gratuit) : votre héros seul face à un rival dirigé par l'IA, sur une petite arène, en deux manches gagnantes sur trois. Choisissez une arme et un objet parmi trois cartes, traquez votre rival à ses traces, au bruit et à la fumée, et devancez le blizzard qui resserre l'arène ; si vous êtes encore debout tous les deux, tout se règle en face-à-face.
-- **Coup de main** (environ 1 h, Pack Premium, bientôt) : votre héros et deux ou trois recrues pour une seule opération, comme une embuscade de convoi, un sabotage ou la défense d'un village.
+- **Duel** (10 à 15 min, gratuit) : votre héros seul face à un rival dirigé par l'IA, sur une petite arène, en deux manches gagnantes sur trois. Choisissez une arme et un objet parmi trois cartes, traquez votre rival à ses traces, au bruit et à ses tirs, et devancez le blizzard qui resserre l'arène ; si vous êtes encore debout tous les deux, tout se règle en face-à-face. Gravissez une échelle de dix rivaux, chacun avec son style, ouvrez quatre aptitudes du héros, rejouez un rival déjà battu, ou jouez en 3 contre 3 et 5 contre 5 avec des recrues de la campagne.
+- **Coup de main** (environ 1 h, Pack Premium) : votre commandant et trois recrues pour une seule opération, en trois actes : préparation, action, repli. Une jauge d'alerte fait venir des renforts si vous faites trop de bruit. Trois scénarios sur Nivôse : embuscade de convoi, sabotage du relais du Guet, défense de Saint-Aube. Les médailles ouvrent des contraintes (nuit noire, munitions comptées, loup solitaire), et l'on peut sauvegarder en cours d'opération.
 
 ---
 
@@ -557,7 +557,7 @@ Conception, île de Nivôse, récit et règles : création originale de Studio T
 - **Personnages, animaux et nature** : Toon Shooter Game Kit, Ultimate Animated Animals, Ultimate Nature Pack et Survival Pack de Quaternius (CC0) ; têtes et portraits des recrues, et détails de la vie de l'île, par Studio Thelba.
 - **Panneau indicateur** : Direction_Wood_2, du pack « Into The Wild » d'Atomic Realm.
 - **Voitures des villes et pick-up** : « Low Poly Vehicles – Optimized Package » d'Awbmecreations (Unity Asset Store). **Textures** : Poly Haven et ambientCG (CC0).
-- **Polices** (SIL Open Font License 1.1) : Barlow Semi Condensed, Big Shoulders Display, Cormorant Garamond, Cormorant SC, Noto Sans Math, Noto Sans Symbols 2.
+- **Polices** (SIL Open Font License 1.1) : Bangers, Barlow Semi Condensed, Big Shoulders Display, Comic Neue, Cormorant Garamond, Cormorant SC, Noto Sans Math, Noto Sans Symbols 2.
 - **Cartes réelles** : lieux, bâtiments, routes, rivières, lacs, forêts, aérodromes et ponts © contributeurs d'OpenStreetMap (ODbL) ; relief Terrain Tiles (Mapzen, AWS Open Data) et leurs sources ; recherche de lieux par Photon (komoot) et Nominatim.
 - Réalisé avec **Unity** ; modèles préparés avec **Blender**.
 
