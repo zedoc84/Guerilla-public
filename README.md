@@ -32,7 +32,7 @@ A turn-based strategy game played on a command map, combined with first-person 3
 
 ### Rulebook
 
-The rulebook covers the whole game: the aim of the game, victory and defeat, difficulty levels, the free game, what each recruit skill is for, wildlife, the Premium Pack, the Duel and the Raid, the editor, every control, a controls summary and an index. **Tip** boxes along the way give players' advice: how to approach a post, when to sabotage, how to stay out of sight.
+The rulebook covers the whole game: the aim of the game, victory and defeat, difficulty levels, the Guard's Logbook and the leaderboards, the free game, what each recruit skill is for, wildlife, the Premium Pack, the Duel and the Raid, the editor, every control, a controls summary and an index. **Tip** boxes along the way give players' advice: how to approach a post, when to sabotage, how to stay out of sight.
 
 - **Read online**: [Rulebook (English)](https://zedoc84.github.io/Guerilla-public/Guerilla-Rulebook-EN.html) · [Livret de règles (français)](https://zedoc84.github.io/Guerilla-public/Guerilla-Livret-de-regles-FR.html)
 - **PDF**, to print or keep: [Guerilla-Rulebook-EN.pdf](Guerilla-Rulebook-EN.pdf) · [Guerilla-Livret-de-regles-FR.pdf](Guerilla-Livret-de-regles-FR.pdf)
@@ -55,13 +55,18 @@ The game also has its own manual: **How to play**, on the title screen and in th
 - **The command map and the 3D view** in first person.
 - **The Duel**: a short game, 10 to 15 minutes, your hero alone against an AI rival.
 - **Life on the island**: wildlife, tracks, camps, frozen lakes (see Features).
+- **After the game**: the map replays the decisive moments of your war, the end window tells what became of each recruit, and a **war map** of the game is saved, ready to share. **Replay this island** starts the same island again.
+- **The Guard's Logbook**: medals, statistics, secret files on the recruits and the island, and unlocks (outfits, paint schemes, new campaign events, the commander's backgrounds). Thirty **achievements**, also on Steam.
+- **Leaderboards**: one per world and difficulty, with a score code to prove your result.
 - **Autosave**, save slots, game export and import.
 
 #### The Premium Pack adds
 
 - **The outside view**: the isometric view (your recruit shows through roofs and trees), the camera behind the commander and the rear view when driving.
-- **Advanced campaign**: Krag's general staff answers every blow you strike.
-- **The daily challenge**: the same game for everyone, every day.
+- **Advanced campaign**: Krag's general staff answers every blow you strike, and Krag follows a hidden doctrine that the Guard must work out from his actions.
+- **The commander's background**: mountain guide, country doctor, former Concession officer, bush pilot or schoolteacher, each with its skills and a different start; unlocked in the Guard's Logbook.
+- **Random bonds**: who follows whom changes every game (friends, debts, quarrels), drawn from the seed.
+- **The daily challenge**: the same game for everyone, every day, with its own leaderboard.
 - **Random island**: new terrain, hamlets and installations placed differently, a random start; 40, 10 or 5 km across. Each island has a number; **Draw another island** offers a new one.
 - **Island of the day**: the same random island and the same rules for everyone, every day.
 - **Real map**: any place in the world, from OpenStreetMap: the terrain, the villages and their real buildings, roads, rivers, lakes, forests, airfields and bridges. Type a name (Chamonix, Mont Ventoux, Lofoten…) or coordinates, and choose 20, 40 or 60 km. **City maps** (City 5 km or City 10 km) load every building, with passers-by, traffic, cars you can drive and famous monuments.
@@ -270,6 +275,8 @@ In isometric view, the left stick pushes toward the direction on screen; the **M
 - **Go round the crows** on the snow near an enemy post: if they take off, the soldiers come out to look.
 - **Turn back when the ice cracks**: once it gives way, only the distress flare can save you.
 - **Cut the telegraph** before attacking a post: it can no longer call its neighbors for help.
+- **In the advanced campaign, hold a radio station early**: listening in reveals Krag's doctrine much faster.
+- **With random bonds, read the files again** before you go recruiting: whoever followed the commander on Nivôse may not follow them any more.
 
 More tips in the rulebook, chapter by chapter.
 
@@ -306,7 +313,7 @@ Jeu de stratégie au tour par tour sur une carte d'état-major, et de combat à 
 
 ### Livret de règles
 
-Le livret présente tout le jeu : le but du jeu, la victoire et la défaite, les niveaux de jeu, le jeu gratuit, le rôle de chaque compétence des recrues, la faune, le Pack Premium, le Duel et le Coup de main, l'éditeur, toutes les commandes, un récapitulatif des commandes et un index. Au fil des chapitres, des encadrés **Conseil** donnent des astuces de joueur : comment approcher un poste, quand saboter, comment rester hors de vue.
+Le livret présente tout le jeu : le but du jeu, la victoire et la défaite, les niveaux de jeu, le Carnet de la Garde et les classements, le jeu gratuit, le rôle de chaque compétence des recrues, la faune, le Pack Premium, le Duel et le Coup de main, l'éditeur, toutes les commandes, un récapitulatif des commandes et un index. Au fil des chapitres, des encadrés **Conseil** donnent des astuces de joueur : comment approcher un poste, quand saboter, comment rester hors de vue.
 
 - **Lire en ligne** : [Livret de règles (français)](https://zedoc84.github.io/Guerilla-public/Guerilla-Livret-de-regles-FR.html) · [Rulebook (English)](https://zedoc84.github.io/Guerilla-public/Guerilla-Rulebook-EN.html)
 - **PDF**, à imprimer ou à garder : [Guerilla-Livret-de-regles-FR.pdf](Guerilla-Livret-de-regles-FR.pdf) · [Guerilla-Rulebook-EN.pdf](Guerilla-Rulebook-EN.pdf)
@@ -329,13 +336,18 @@ Le jeu a aussi son propre manuel : **Comment jouer**, sur l'écran titre et dans
 - **La carte d'état-major et la vue 3D** à la première personne.
 - **Le Duel** : une partie courte, de 10 à 15 minutes, votre héros seul face à un rival dirigé par l'IA.
 - **La vie de l'île** : faune, traces, camps, lacs gelés (voir Fonctionnalités).
+- **Après la partie** : la carte rejoue les moments décisifs de votre guerre, la fenêtre de fin dit ce que devient chaque recrue, et une **carte de guerre** de la partie est enregistrée, prête à partager. **Rejouer cette île** relance la même île.
+- **Le Carnet de la Garde** : médailles, statistiques, dossiers secrets sur les recrues et l'île, et déblocages (tenues, peintures, nouveaux événements de campagne, passés du commandant). Trente **succès**, aussi sur Steam.
+- **Les classements** : un par monde et par rigueur, avec un code de score pour prouver son résultat.
 - **Sauvegarde automatique**, emplacements de sauvegarde, export et import des parties.
 
 #### Ce qu'ajoute le Pack Premium
 
 - **La vue extérieure** : la vue isométrique (votre recrue se voit à travers les toits et les sapins), la caméra derrière le commandant et la vue arrière en voiture.
-- **Campagne avancée** : l'état-major de Krag répond à chacun de vos coups.
-- **Le défi du jour** : la même partie pour tout le monde, chaque jour.
+- **Campagne avancée** : l'état-major de Krag répond à chacun de vos coups, et Krag suit une doctrine cachée que la Garde doit deviner à ses actes.
+- **Le passé du commandant** : guide de montagne, médecin de campagne, ancien officier de la Concession, pilote de brousse, instituteur ou institutrice, chacun avec ses compétences et un départ différent ; à débloquer au Carnet de la Garde.
+- **Les liens tirés au sort** : qui suit qui change à chaque partie (amitiés, dettes, querelles), tiré de la graine.
+- **Le défi du jour** : la même partie pour tout le monde, chaque jour, avec son classement.
 - **Île aléatoire** : un relief neuf, des hameaux et des installations répartis autrement, un départ tiré au sort ; 40, 10 ou 5 km de côté. Chaque île porte un numéro ; **Tirer une autre île** en propose une nouvelle.
 - **Île du jour** : la même île aléatoire et les mêmes règles pour tout le monde, chaque jour.
 - **Carte réelle** : n'importe quel lieu du monde, d'après OpenStreetMap : le relief, les villages et leurs vrais bâtiments, les routes, rivières, lacs, forêts, aérodromes et ponts. Tapez un nom (Chamonix, mont Ventoux, Lofoten…) ou des coordonnées, et choisissez 20, 40 ou 60 km. Les **cartes de ville** (Ville 5 km ou Ville 10 km) chargent tous les bâtiments, avec passants, circulation, voitures à conduire et monuments célèbres.
@@ -544,6 +556,8 @@ En vue isométrique, le stick gauche pousse vers la direction de l'écran ; le r
 - **Contournez les corbeaux** posés sur la neige près d'un poste ennemi : s'ils s'envolent, les soldats sortent voir.
 - **Faites demi-tour quand la glace craque** : une fois qu'elle a cédé, seule la fusée de détresse peut vous sauver.
 - **Coupez le télégraphe** avant d'attaquer un poste : il ne peut plus appeler ses voisins à l'aide.
+- **En campagne avancée, tenez tôt une station radio** : les écoutes trahissent bien plus vite la doctrine de Krag.
+- **Avec les liens tirés au sort, relisez les fiches** avant de partir recruter : celui qui suivait le commandant sur Nivôse ne le suit peut-être plus.
 
 D'autres conseils vous attendent dans le livret de règles, chapitre par chapitre.
 
