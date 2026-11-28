@@ -3,7 +3,7 @@
 
 
 
-# Guérilla — Vetrarhríð
+# Guérilla 2061 — Vetrarhríð
 
 *Nivôse: an island locked in ice, eight geothermal drill rigs, and a partisan war fought on skis.*
 
@@ -32,7 +32,7 @@ A turn-based strategy game played on a command map, combined with first-person 3
 
 ### Rulebook
 
-The rulebook covers the whole game: the aim of the game, victory and defeat, difficulty levels, the Guard's Logbook and the leaderboards, the free game, what each recruit skill is for, wildlife, the Premium Pack, the Duel and the Raid, the editor, every control, a controls summary and an index. **Tip** boxes along the way give players' advice: how to approach a post, when to sabotage, how to stay out of sight.
+The rulebook covers the whole game: the aim of the game, victory and defeat, difficulty levels, the Guard's Logbook and the leaderboards, the free game, what each recruit skill is for, stealth, wildlife, the mechanic and spare parts, the Premium Pack, the recruit packs and the enemy packs, the Duel and the Raid, the editor, every control, a controls summary and an index. **Tip** boxes along the way give players' advice: how to approach a post, when to sabotage, how to stay out of sight.
 
 - **Read online**: [Rulebook (English)](https://zedoc84.github.io/Guerilla-public/Guerilla-Rulebook-EN.html) · [Livret de règles (français)](https://zedoc84.github.io/Guerilla-public/Guerilla-Livret-de-regles-FR.html)
 - **PDF**, to print or keep: [Guerilla-Rulebook-EN.pdf](Guerilla-Rulebook-EN.pdf) · [Guerilla-Livret-de-regles-FR.pdf](Guerilla-Livret-de-regles-FR.pdf)
@@ -50,10 +50,12 @@ The game also has its own manual: **How to play**, on the title screen and in th
 #### The free game
 
 - **The island of Nivôse** and its whole campaign: 40 km across, fifteen hamlets, eight drill rigs, four Concession installations, the Brisante gorge, three cable cars, four airstrips.
-- **32 recruits**, each with a home hamlet, skills, a story and ties to others.
+- **33 recruits**, each with a home hamlet, skills, a story and ties to others, including **Solène Brac**, the mechanic: she repairs snowmobiles and pickups on the spot, restores radios and generators, recharges binocular batteries and salvages twice as many spare parts from wrecks.
 - **Four levels of winter severity** (Mild, Harsh, Severe, Deadly) and options: aircraft-guided mortars, attack fighter, fog of war, guided first mission.
 - **The command map and the 3D view** in first person.
+- **Stealth**: get through without firing a shot (see Features).
 - **The Duel**: a short game, 10 to 15 minutes, your hero alone against an AI rival.
+- **Community maps**: the maps picked by the studio, on every world, and Nivôse map codes, free to play.
 - **Life on the island**: wildlife, tracks, camps, frozen lakes (see Features).
 - **After the game**: the map replays the decisive moments of your war, the end window tells what became of each recruit, and a **war map** of the game is saved, ready to share. **Replay this island** starts the same island again.
 - **The Guard's Logbook**: medals, statistics, secret files on the recruits and the island, and unlocks (outfits, paint schemes, new campaign events, the commander's backgrounds). Thirty **achievements**, also on Steam.
@@ -62,7 +64,7 @@ The game also has its own manual: **How to play**, on the title screen and in th
 
 #### The Premium Pack adds
 
-- **The outside view**: the isometric view (your recruit shows through roofs and trees), the camera behind the commander and the rear view when driving.
+- **The outside view**: the isometric view (your recruit shows through roofs and trees), the camera behind the commander and the rear view when driving; on the ground, the vision cone of each nearby soldier.
 - **Advanced campaign**: Krag's general staff answers every blow you strike, and Krag follows a hidden doctrine that the Guard must work out from his actions.
 - **The commander's background**: mountain guide, country doctor, former Concession officer, bush pilot or schoolteacher, each with its skills and a different start; unlocked in the Guard's Logbook.
 - **Random bonds**: who follows whom changes every game (friends, debts, quarrels), drawn from the seed.
@@ -70,17 +72,28 @@ The game also has its own manual: **How to play**, on the title screen and in th
 - **Random island**: new terrain, hamlets and installations placed differently, a random start; 40, 10 or 5 km across. Each island has a number; **Draw another island** offers a new one.
 - **Island of the day**: the same random island and the same rules for everyone, every day.
 - **Real map**: any place in the world, from OpenStreetMap: the terrain, the villages and their real buildings, roads, rivers, lakes, forests, airfields and bridges. Type a name (Chamonix, Mont Ventoux, Lofoten…) or coordinates, and choose 20, 40 or 60 km. **City maps** (City 5 km or City 10 km) load every building, with passers-by, traffic, cars you can drive and famous monuments.
-- **Ten more partisans**: 42 recruits instead of 32.
+- **Ten more partisans**: 43 recruits instead of 33.
 - **Pickup truck**: one per garage (0 to 2 in the editor). It drives through the snow and up the slopes depending on the ground, carries up to four recruits in the back, who can fall off if you drive too fast, and changes travel on the command map: those who ride together leave and arrive together. Left out in the field, it can be shot up or blown up.
 - **Ski plane**: a Harfang bush plane next to each mountain hut (0 to 2 in the editor). It takes off and lands anywhere flat (250 m of snow under 8 %, frozen lakes and sea ice included, never thin ice), and flies its pilot and up to three passengers anywhere on the map.
 - **The Raid**: an operation of about an hour with your squad, in three acts (preparation, action, retreat), and the **daily duel**.
 - **Editor**: move hamlets, installations and airstrips, add or remove buildings, post patrols, set the commander's start, write a scenario, choose the starting recruits, and test any spot in 3D.
-- **My maps**: keep your maps, export them as `.carte-guerilla.json` files and import other players' maps.
-- **Stream Deck** (Mac and Windows): the plugin shows the game's state and controls it.
+- **My maps and community maps**: keep your maps, export them as `.carte-guerilla.json` files and import other players' maps; share any map with a short **code** (no account, no server), play any code you receive, and send your map to the studio from the editor.
+- **Stream Deck** (Mac and Windows): the **Guerilla Companion** plugin, sold separately on the Elgato Marketplace, shows the game's state and controls it.
 
-#### Other eras
+#### The packs (coming in updates)
 
-The same engine carries other eras, each sold on its own, separately from the Premium Pack, inside the Guérilla app. First up: **the West**, a valley in Wyoming in 1885, with its own campaign and modes.
+Eight optional packs, each sold separately. Each works on its own, without the Premium Pack, in the Nivôse campaign; with the Premium Pack, it also plays on the other maps, in the isometric view, in the advanced campaign and in a raid of its own. Never in the daily challenge or the Duel. When you start a new game, each pack you own has its box, ticked by default.
+
+- **Drone Pack**: Nils Storvik, wildlife photographer, and his home-made white drone. Spot and mark targets, photograph an installation (its garrison and rounds stay on the map for 12 hours), track, guide the squad, drop a medical kit, and fly a recon flight from the command map. Solène upgrades it in her workshop: grenade release, thermal camera, deep-cold batteries, long antenna, quiet propellers, fairing. Facing you: the Concession's drones.
+- **She-Wolf Pack**: Nouka, the commander's white she-wolf, who never dies. Eight orders from an order wheel (Heel, Stay, Go, Search, Sniff, Pin, Quiet, Whistle): she scents sentries downwind, follows tracks, carries messages, pins a sentry down so you can tie him up, and passes for a wild wolf. She waits on the ground when the commander takes a vehicle, and comes back from anywhere at a whistle. Facing you: dog handlers.
+- **Snowplow Pack**: Fernand Blaise, road mender, and his snowcat, which clears roads and closes them with a wall of snow. In her workshop, Solène turns it into a tank: armor, then one module in each of three slots (turret and gun, snow cannon, searchlight, rockets, smoke, heavy grenade launcher, winch, armored sled…). Loud and thirsty, it draws Krag's whole general staff. Facing you: the anti-tank response.
+- **Five enemy packs**: **Krag's officers** (named, they remember you, rise in rank and take revenge), **the Engineers** (mines, tripwires, barbed wire, blockhouses), **helicopters** (troop drops, an attack helicopter), **bounty hunters** (in civilian clothes, they capture alive) and **the Militia and the informers** (islanders armed by Krag where trust is low, with an optional mole among your recruits).
+
+With the recruit packs: up to 35 recruits on Nivôse and the island of the day, 45 on the other maps. Nouka does not count. Details in the rulebook, chapters 7 and 8.
+
+#### Guerilla Western 1873
+
+The same engine carries other eras, each one a game of its own. First up: **Guerilla Western 1873**, a range war in a Wyoming valley in 1885, sold separately, with its own campaign, duel and raid, and its own rulebook.
 
 ---
 
@@ -88,7 +101,7 @@ The same engine carries other eras, each sold on its own, separately from the Pr
 
 - **Campaign**: the whole war for the island, turn by turn on the command map and in 3D on the ground. Classic in the free game, Advanced with the Premium Pack.
 - **Duel** (10–15 min, free): your hero alone against an AI rival on a small arena, in two winning rounds out of three. Pick a weapon and an item from three cards, track your rival by footprints, noise and gunfire, and beat the blizzard that shrinks the arena; if you are both still standing, it ends face to face. Climb a ladder of ten rivals, each with his own style, unlock four hero skills, replay any rival you have beaten, or play 3 vs 3 and 5 vs 5 with recruits from the campaign.
-- **Raid** (about 1 hour, Premium Pack): your commander and three recruits on a single operation, in three acts: preparation, action, retreat. An alarm gauge brings in reinforcements if you make too much noise. Three scenarios on Nivôse: convoy ambush, sabotage of the Guet relay, defence of Saint-Aube. Medals unlock constraints (pitch dark, short on ammo, lone wolf), and you can save mid-raid.
+- **Raid** (about 1 hour, Premium Pack): your commander and three recruits on a single operation, in three acts: preparation, action, retreat. An alarm gauge brings in reinforcements if you make too much noise. Three scenarios on Nivôse: convoy ambush, sabotage of the Guet relay, defence of Saint-Aube. Medals unlock constraints (pitch dark, short on ammo, lone wolf), and you can save mid-raid. With the Premium Pack, each pack adds a raid of its own.
 
 ---
 
@@ -123,7 +136,7 @@ For beta testers: `[DOWNLOAD LINK]`
 
 #### Language
 
-The game starts in your system's language (English or French). Change it on the title screen, in the **Language** row (**Automatic**, **Français** or **English**), or from the menu during a game.
+The game starts in your system's language (English or French). Change it in **Options** on the title screen (**Automatic**, **Français** or **English**), or from the menu during a game.
 
 #### Where are my saves?
 
@@ -137,6 +150,7 @@ Games, settings and your maps stay on your computer, and carry over from one bet
 - **Recruiting**: each islander only follows certain people (a brother, a fiancée, an old friend…).
 - **Getting around**: realistic skiing (about 5 km/h on the flat), on foot, by snowmobile or in tow, by cable car, hang glider and plane, with a parachute and an autopilot for landing. A snowmobile stays wherever you leave it, and anyone who can drive takes it back; you can jump out of a moving vehicle, or out of a cable car (mind the height).
 - **Fighting**: knife, 9 mm pistol, submachine gun, assault rifle, pump-action shotgun, scoped rifle, bazooka, grenades and charges. Stand, crouch or go prone, lean out from cover, shoot from a belfry. Only the bazooka and grenades stop a tank. Grenades are aimed: the game freezes and a ring shows where they will land. They also bring down Concession buildings: from 3 grenades (workshop) to 8 (synthesis plant), and 3 for a house in a hamlet the Concession holds.
+- **Stealth**: get through without firing a shot. A “?” bubble fills above a wary soldier and turns into “!” when he spots you; the **Seen / Heard** panel tells you how far you can be seen and heard, and ripples at the edge of the screen show nearby footsteps, dogs and engines. Throw a snowball to draw sentries away, knock a soldier out from behind, tie him up and question him, drag a body and bury it in the snow, hide under a fir or dig into the snow, and silence the radio operator before he calls for help: he needs twenty seconds. A spared soldier earns a little trust in the nearby hamlets. The **Stealth aids** option hides the bubbles, the panel and the cones.
 - **Squad**: recruits in the same place follow you in 3D. Give them orders and carry a wounded comrade.
 - **Garrisons, prison and escape, trackers and dogs**; firing on the Guard or on islanders has consequences.
 - **Sabotage**: telegraph lines, the Brisante bridges, the depot, the tank plant, the radio relay, guard posts.
@@ -189,6 +203,9 @@ The game follows the **position** of the keys: **W A S D** on QWERTY, **Z Q S D*
 | Knife strike | V | V |
 | Grenade: aim (the game freezes, the ring follows the mouse) · throw · keep it | G · left click · right click or Esc | G · clic gauche · clic droit ou Échap |
 | Interact: door, islander, menu, vehicle, comrade, charge, telegraph | F | F |
+| Snowball (not when prone) | Alt (Option on Mac) or wheel click | Alt (Option sur Mac) ou clic molette |
+| Next to a knocked-out soldier: tie him up (one wire) · tied up: question him · dragging: let go | F | F |
+| Knife in hand, behind a soldier: knock him out · next to a body: drag it · dragging: bury it · prone: dig into the snow | hold F | F maintenu |
 | Get out of a snowmobile, pickup or cable car · while moving: jump (twice within two seconds) | F F | F F |
 | Binoculars · night, thermal vision | J · N | J · N |
 | 3D view ↔ isometric view (Premium Pack) | Y | Y |
@@ -212,6 +229,7 @@ The game follows the **position** of the keys: **W A S D** on QWERTY, **Z Q S D*
 | Camera, zoom | arrows, mouse wheel |
 | Camera behind the commander | B |
 | Aimed grenade (the ring starts under the pointer) · aim at the enemy under the cursor | G · V |
+| Snowball toward the pointer · show only one soldier's vision cone | Alt or wheel click · hover over him |
 
 #### Vehicles, plane and parachute
 
@@ -241,8 +259,8 @@ The game follows the **position** of the keys: **W A S D** on QWERTY, **Z Q S D*
 | Move · look | left stick · right stick |
 | Jump, stand up | A |
 | Moving: speed tuck · standing still: go down one position | B |
-| Interact | X |
-| Next weapon · previous, next weapon | Y · D-pad ← → |
+| Interact · hold: knock out, drag, bury, dig in | X |
+| Snowball (in the Duel and the Raid: next weapon) · previous, next weapon | Y · D-pad ← → |
 | Fire mode · knife strike (with binoculars: zoom) | D-pad ↑ · D-pad ↓ |
 | Aim · fire | left trigger · right trigger |
 | Grenade (hold: aim with the right stick · release: throw · B: keep it) · binoculars | left bumper · right bumper |
@@ -260,6 +278,8 @@ In isometric view, the left stick pushes toward the direction on screen; the **M
 | Remove the selected item | Delete |
 | Finish · abandon a patrol round | Enter · Esc |
 
+The packs' controls (the drone, Nouka's order wheel, the snowplow) will appear in **How to play** when the packs arrive.
+
 ---
 
 ### Tips
@@ -275,6 +295,8 @@ In isometric view, the left stick pushes toward the direction on screen; the **M
 - **Go round the crows** on the snow near an enemy post: if they take off, the soldiers come out to look.
 - **Turn back when the ice cracks**: once it gives way, only the distress flare can save you.
 - **Cut the telegraph** before attacking a post: it can no longer call its neighbors for help.
+- **Find the radio operator first**: once his garrison spots you, he has twenty seconds to call in reinforcements.
+- **Throw the snowball well away from you**, preferably at dusk or at night: by day, the soldier who goes to look sees far around him.
 - **In the advanced campaign, hold a radio station early**: listening in reveals Krag's doctrine much faster.
 - **With random bonds, read the files again** before you go recruiting: whoever followed the commander on Nivôse may not follow them any more.
 
@@ -284,13 +306,13 @@ More tips in the rulebook, chapter by chapter.
 
 ### Credits and licenses
 
-Design, the island of Nivôse, story and rules: original creation by Studio Thelba. Sounds and music are synthesized by the game.
+Design, the island of Nivôse, story and rules: original creation by Studio Thelba. Music by Studio Thelba (“La Rébellion du Nord”); sound effects made for the game or taken from free sound libraries.
 
 - **Weapon and arm modeling**: Baptiste Barbe, 3D artist — [artstation.com/barbe_baptiste](https://www.artstation.com/barbe_baptiste)
 - **Characters, animals and nature**: Toon Shooter Game Kit, Ultimate Animated Animals, Ultimate Nature Pack and Survival Pack by Quaternius (CC0); recruit heads and portraits, and the details of life on the island, by Studio Thelba.
 - **Signpost**: Direction_Wood_2, from "Into The Wild" by Atomic Realm.
 - **Town cars and pickup truck**: “Low Poly Vehicles – Optimized Package” by Awbmecreations (Unity Asset Store). **Textures**: Poly Haven and ambientCG (CC0).
-- **Fonts** (SIL Open Font License 1.1): Bangers, Barlow Semi Condensed, Big Shoulders Display, Comic Neue, Cormorant Garamond, Cormorant SC, Noto Sans Math, Noto Sans Symbols 2.
+- **Fonts** (SIL Open Font License 1.1): Bangers, Barlow Semi Condensed, Big Shoulders Display, Comic Neue, Cormorant Garamond, Cormorant SC, Lilita One, Noto Sans Math, Noto Sans Symbols 2, Patrick Hand.
 - **Real maps**: places, buildings, roads, rivers, lakes, forests, airfields and bridges © OpenStreetMap contributors (ODbL); terrain from Terrain Tiles (Mapzen, AWS Open Data) and their sources; place search by Photon (komoot) and Nominatim.
 - Made with **Unity**; models prepared with **Blender**.
 
@@ -313,7 +335,7 @@ Jeu de stratégie au tour par tour sur une carte d'état-major, et de combat à 
 
 ### Livret de règles
 
-Le livret présente tout le jeu : le but du jeu, la victoire et la défaite, les niveaux de jeu, le Carnet de la Garde et les classements, le jeu gratuit, le rôle de chaque compétence des recrues, la faune, le Pack Premium, le Duel et le Coup de main, l'éditeur, toutes les commandes, un récapitulatif des commandes et un index. Au fil des chapitres, des encadrés **Conseil** donnent des astuces de joueur : comment approcher un poste, quand saboter, comment rester hors de vue.
+Le livret présente tout le jeu : le but du jeu, la victoire et la défaite, les niveaux de jeu, le Carnet de la Garde et les classements, le jeu gratuit, le rôle de chaque compétence des recrues, la discrétion, la faune, la mécanicienne et les pièces détachées, le Pack Premium, les packs de recrues et les packs d'ennemis, le Duel et le Coup de main, l'éditeur, toutes les commandes, un récapitulatif des commandes et un index. Au fil des chapitres, des encadrés **Conseil** donnent des astuces de joueur : comment approcher un poste, quand saboter, comment rester hors de vue.
 
 - **Lire en ligne** : [Livret de règles (français)](https://zedoc84.github.io/Guerilla-public/Guerilla-Livret-de-regles-FR.html) · [Rulebook (English)](https://zedoc84.github.io/Guerilla-public/Guerilla-Rulebook-EN.html)
 - **PDF**, à imprimer ou à garder : [Guerilla-Livret-de-regles-FR.pdf](Guerilla-Livret-de-regles-FR.pdf) · [Guerilla-Rulebook-EN.pdf](Guerilla-Rulebook-EN.pdf)
@@ -331,10 +353,12 @@ Le jeu a aussi son propre manuel : **Comment jouer**, sur l'écran titre et dans
 #### Le jeu gratuit
 
 - **L'île de Nivôse** et toute sa campagne : 40 km de côté, quinze hameaux, huit forages, quatre installations de la Concession, la gorge de la Brisante, trois téléphériques, quatre pistes d'aviation.
-- **32 recrues**, chacune avec son hameau, ses compétences, son histoire et ses liens.
+- **33 recrues**, chacune avec son hameau, ses compétences, son histoire et ses liens, dont **Solène Brac**, la mécanicienne : elle répare sur place motoneiges et pick-ups, remet en état radios et groupes électrogènes, recharge les piles des jumelles et tire deux fois plus de pièces détachées des épaves.
 - **Quatre rigueurs de l'hiver** (Doux, Rude, Rigoureux, Mortel) et des options : mortiers guidés par avion, chasseur d'attaque, brouillard de guerre, première mission guidée.
 - **La carte d'état-major et la vue 3D** à la première personne.
+- **La discrétion** : passer sans tirer un coup de feu (voir Fonctionnalités).
 - **Le Duel** : une partie courte, de 10 à 15 minutes, votre héros seul face à un rival dirigé par l'IA.
+- **Les cartes de la communauté** : les cartes choisies par le studio, sur tous les mondes, et les codes de carte de Nivôse, à jouer gratuitement.
 - **La vie de l'île** : faune, traces, camps, lacs gelés (voir Fonctionnalités).
 - **Après la partie** : la carte rejoue les moments décisifs de votre guerre, la fenêtre de fin dit ce que devient chaque recrue, et une **carte de guerre** de la partie est enregistrée, prête à partager. **Rejouer cette île** relance la même île.
 - **Le Carnet de la Garde** : médailles, statistiques, dossiers secrets sur les recrues et l'île, et déblocages (tenues, peintures, nouveaux événements de campagne, passés du commandant). Trente **succès**, aussi sur Steam.
@@ -343,7 +367,7 @@ Le jeu a aussi son propre manuel : **Comment jouer**, sur l'écran titre et dans
 
 #### Ce qu'ajoute le Pack Premium
 
-- **La vue extérieure** : la vue isométrique (votre recrue se voit à travers les toits et les sapins), la caméra derrière le commandant et la vue arrière en voiture.
+- **La vue extérieure** : la vue isométrique (votre recrue se voit à travers les toits et les sapins), la caméra derrière le commandant et la vue arrière en voiture ; au sol, le cône de vision de chaque soldat proche.
 - **Campagne avancée** : l'état-major de Krag répond à chacun de vos coups, et Krag suit une doctrine cachée que la Garde doit deviner à ses actes.
 - **Le passé du commandant** : guide de montagne, médecin de campagne, ancien officier de la Concession, pilote de brousse, instituteur ou institutrice, chacun avec ses compétences et un départ différent ; à débloquer au Carnet de la Garde.
 - **Les liens tirés au sort** : qui suit qui change à chaque partie (amitiés, dettes, querelles), tiré de la graine.
@@ -351,17 +375,28 @@ Le jeu a aussi son propre manuel : **Comment jouer**, sur l'écran titre et dans
 - **Île aléatoire** : un relief neuf, des hameaux et des installations répartis autrement, un départ tiré au sort ; 40, 10 ou 5 km de côté. Chaque île porte un numéro ; **Tirer une autre île** en propose une nouvelle.
 - **Île du jour** : la même île aléatoire et les mêmes règles pour tout le monde, chaque jour.
 - **Carte réelle** : n'importe quel lieu du monde, d'après OpenStreetMap : le relief, les villages et leurs vrais bâtiments, les routes, rivières, lacs, forêts, aérodromes et ponts. Tapez un nom (Chamonix, mont Ventoux, Lofoten…) ou des coordonnées, et choisissez 20, 40 ou 60 km. Les **cartes de ville** (Ville 5 km ou Ville 10 km) chargent tous les bâtiments, avec passants, circulation, voitures à conduire et monuments célèbres.
-- **Dix partisans de plus** : 42 recrues au lieu de 32.
+- **Dix partisans de plus** : 43 recrues au lieu de 33.
 - **Pick-up** : un par garage (de 0 à 2 dans l'éditeur). Il roule dans la neige et monte les pentes selon le sol, emmène jusqu'à quatre recrues à l'arrière, qui peuvent tomber si l'on roule trop vite, et change les trajets sur la carte d'état-major : ceux qui voyagent ensemble partent et arrivent ensemble. Laissé en campagne, il craint les balles et les explosions.
 - **Avion à skis** : un Harfang, avion de brousse, près de chaque refuge (de 0 à 2 dans l'éditeur). Il décolle et se pose partout où c'est plat (250 m de neige à moins de 8 %, lacs gelés et banquise compris, jamais la glace mince), et emmène son pilote et jusqu'à trois passagers n'importe où sur la carte.
 - **Le Coup de main** : une opération d'environ une heure avec votre escouade, en trois actes (préparation, action, repli), et le **duel du jour**.
 - **Éditeur** : déplacez hameaux, installations et pistes, ajoutez ou retirez des bâtiments, postez des patrouilles, choisissez le départ du commandant, écrivez un scénario, choisissez les recrues de départ, et testez n'importe quel endroit en 3D.
-- **Mes cartes** : gardez vos cartes, exportez-les en fichier `.carte-guerilla.json` et importez celles des autres joueurs.
-- **Stream Deck** (Mac et Windows) : le plugin affiche l'état de la partie et la pilote.
+- **Mes cartes et les cartes de la communauté** : gardez vos cartes, exportez-les en fichier `.carte-guerilla.json` et importez celles des autres joueurs ; partagez n'importe quelle carte par un court **code** (sans compte ni serveur), jouez tous les codes reçus, et envoyez votre carte au studio depuis l'éditeur.
+- **Stream Deck** (Mac et Windows) : le plugin **Guerilla Companion**, vendu à part sur l'Elgato Marketplace, affiche l'état de la partie et la pilote.
 
-#### Les autres époques
+#### Les packs (par des mises à jour)
 
-Le même moteur porte d'autres époques, vendues chacune à part, indépendamment du Pack Premium, dans l'application Guérilla. La première : **l'Ouest**, une vallée du Wyoming en 1885, avec sa propre campagne et ses modes.
+Huit packs facultatifs, vendus chacun à part. Chacun marche seul, sans le Pack Premium, dans la campagne de Nivôse ; avec le Pack Premium, il joue aussi sur les autres cartes, en vue isométrique, en campagne avancée et dans un coup de main à lui. Jamais au défi du jour ni au Duel. À la nouvelle partie, chaque pack acquis a sa case, cochée d'office.
+
+- **Pack Drone** : Nils Storvik, photographe naturaliste, et son drone blanc bricolé. Repérer et marquer, photographier une installation (sa garnison et ses rondes restent sur la carte pendant 12 heures), pister, guider l'escouade, larguer une trousse de soins, et l'ordre « Vol de reconnaissance » sur la carte d'état-major. Solène l'améliore à son atelier : largueur de grenade, caméra thermique, batteries grand froid, antenne longue, hélices silencieuses, carénage. En face : les drones de la Concession.
+- **Pack Louve** : Nouka, la louve blanche du commandant, qui ne meurt jamais. Huit ordres sur une roue (Au pied, Reste, Va, Cherche, Flaire, Plaque, Silence, Siffler) : elle sent les sentinelles sous le vent, suit les traces, porte un message, plaque une sentinelle pour qu'on la ligote, et passe pour une louve sauvage. Elle attend au sol quand le commandant prend un engin, et revient de partout au sifflet. En face : les maîtres-chiens.
+- **Pack Chasse-neige** : Fernand Blaise, cantonnier, et sa dameuse, qui dégage les routes ou les ferme d'un mur de neige. À son atelier, Solène la change en char : blindage, puis un module dans chacun des trois emplacements (tourelle et canon, canon à neige, projecteur, roquettes, fumigènes, lance-grenades lourd, treuil, traîneau blindé…). Bruyant et gourmand, il attire tout l'état-major de Krag. En face : la riposte au char.
+- **Cinq packs d'ennemis** : **les officiers de Krag** (nommés, ils se souviennent de vous, montent en grade et se vengent), **le Génie** (mines, pièges à fil, barbelés, fortins), **les hélicoptères** (troupes déposées, hélicoptère d'attaque), **les chasseurs de primes** (en civil, ils capturent sans tuer) et **la Milice et les mouchards** (des habitants armés par Krag là où la confiance baisse, avec en option une taupe parmi vos recrues).
+
+Avec les packs de recrues : jusqu'à 35 recrues sur Nivôse et l'île du jour, 45 sur les autres cartes. Nouka ne compte pas. Le détail est dans le livret de règles, chapitres 7 et 8.
+
+#### Guérilla Western 1873
+
+Le même moteur porte d'autres époques, chacune dans un jeu à elle. La première : **Guérilla Western 1873**, la guerre des ranchs dans une vallée du Wyoming en 1885, vendu à part, avec sa campagne, son duel, son coup de main et son propre livret.
 
 ---
 
@@ -369,7 +404,7 @@ Le même moteur porte d'autres époques, vendues chacune à part, indépendammen
 
 - **Campagne** : toute la guerre pour l'île, au tour par tour sur la carte d'état-major et en 3D sur le terrain. Classique dans le jeu gratuit, Avancée avec le Pack Premium.
 - **Duel** (10 à 15 min, gratuit) : votre héros seul face à un rival dirigé par l'IA, sur une petite arène, en deux manches gagnantes sur trois. Choisissez une arme et un objet parmi trois cartes, traquez votre rival à ses traces, au bruit et à ses tirs, et devancez le blizzard qui resserre l'arène ; si vous êtes encore debout tous les deux, tout se règle en face-à-face. Gravissez une échelle de dix rivaux, chacun avec son style, ouvrez quatre aptitudes du héros, rejouez un rival déjà battu, ou jouez en 3 contre 3 et 5 contre 5 avec des recrues de la campagne.
-- **Coup de main** (environ 1 h, Pack Premium) : votre commandant et trois recrues pour une seule opération, en trois actes : préparation, action, repli. Une jauge d'alerte fait venir des renforts si vous faites trop de bruit. Trois scénarios sur Nivôse : embuscade de convoi, sabotage du relais du Guet, défense de Saint-Aube. Les médailles ouvrent des contraintes (nuit noire, munitions comptées, loup solitaire), et l'on peut sauvegarder en cours d'opération.
+- **Coup de main** (environ 1 h, Pack Premium) : votre commandant et trois recrues pour une seule opération, en trois actes : préparation, action, repli. Une jauge d'alerte fait venir des renforts si vous faites trop de bruit. Trois scénarios sur Nivôse : embuscade de convoi, sabotage du relais du Guet, défense de Saint-Aube. Les médailles ouvrent des contraintes (nuit noire, munitions comptées, loup solitaire), et l'on peut sauvegarder en cours d'opération. Avec le Pack Premium, chaque pack ajoute son coup de main.
 
 ---
 
@@ -404,7 +439,7 @@ Pour les testeurs de la bêta : `[LIEN DE TÉLÉCHARGEMENT]`
 
 #### Langue
 
-Le jeu démarre dans la langue du système (français ou anglais). Changez-la sur l'écran titre, à la ligne **Langue** (**Automatique**, **Français** ou **English**), ou depuis le menu en cours de partie.
+Le jeu démarre dans la langue du système (français ou anglais). Changez-la dans les **Options** de l'écran titre (**Automatique**, **Français** ou **English**), ou depuis le menu en cours de partie.
 
 #### Où sont les sauvegardes ?
 
@@ -418,6 +453,7 @@ Les parties, les réglages et vos cartes restent sur votre ordinateur et sont re
 - **Rallier** : chaque habitant ne suit que certaines personnes (un frère, une fiancée, un vieil ami…).
 - **Se déplacer** : un ski réaliste (environ 5 km/h sur le plat), à pied, en motoneige ou en remorque, en téléphérique, en deltaplane et en avion, avec parachute et pilote automatique pour l'atterrissage. Une motoneige reste là où on la laisse et toute recrue qui sait conduire la reprend ; on peut sauter d'un engin en marche, ou de la cabine du téléphérique (gare à la hauteur).
 - **Combattre** : couteau, pistolet 9 mm, pistolet-mitrailleur, fusil d'assaut, fusil à pompe, fusil à lunette, bazooka, grenades et charges. Debout, accroupi ou allongé, penché derrière un abri, ou en haut d'un clocher. Seuls le bazooka et les grenades arrêtent un char. Les grenades se visent : le jeu se fige et un rond montre où elles tomberont. Elles font aussi sauter les bâtiments de la Concession : de 3 grenades (atelier) à 8 (usine de synthèse), et 3 pour une maison d'un hameau qu'elle tient.
+- **La discrétion** : passer sans tirer un coup de feu. Une bulle « ? » se remplit au-dessus d'un soldat qui se méfie et devient « ! » quand il vous repère ; le panneau **Vu / Entendu** dit de quelle distance on vous voit et vous entend, et des ondes au bord de l'écran signalent les pas, les chiens et les moteurs tout proches. Lancez une boule de neige pour attirer les sentinelles ailleurs, assommez un soldat par-derrière, ligotez-le et interrogez-le, traînez un corps et enfouissez-le sous la neige, cachez-vous sous un sapin ou dans la neige, et faites taire l'opérateur radio avant qu'il appelle à l'aide : il lui faut vingt secondes. Un soldat épargné vaut un peu de confiance dans les hameaux voisins. L'option **Aides à la discrétion** masque les bulles, le panneau et les cônes.
 - **L'escouade** : les recrues présentes au même endroit vous suivent en 3D. Donnez-leur des ordres et portez un camarade blessé.
 - **Garnisons, prison et évasion, pisteurs et chiens** ; tirer sur la Garde ou sur les habitants a des conséquences.
 - **Sabotage** : lignes télégraphiques, ponts de la Brisante, dépôt, usine d'engins, relais radio, postes de garde.
@@ -470,6 +506,9 @@ Le jeu suit la **position** des touches : **Z Q S D** sur un clavier AZERTY, **W
 | Coup de couteau | V | V |
 | Grenade : viser (le jeu se fige, le rond suit la souris) · lancer · la garder | G · clic gauche · clic droit ou Échap | G · left click · right click or Esc |
 | Interagir : porte, habitant, menu, véhicule, camarade, charge, télégraphe | F | F |
+| Boule de neige (pas allongé) | Alt (Option sur Mac) ou clic molette | Alt (Option on Mac) or wheel click |
+| Près d'un soldat assommé : le ligoter (un fil de fer) · ligoté : l'interroger · en traînant : lâcher | F | F |
+| Couteau en main, dans le dos d'un soldat : l'assommer · près d'un corps : le traîner · en traînant : l'enfouir · allongé : s'enfouir | F maintenu | hold F |
 | Sortir d'une motoneige, d'un pick-up ou de la cabine · en marche : sauter (deux fois en deux secondes) | F F | F F |
 | Jumelles · vision nocturne, thermique | J · N | J · N |
 | Vue 3D ↔ vue isométrique (Pack Premium) | Y | Y |
@@ -493,6 +532,7 @@ Le jeu suit la **position** des touches : **Z Q S D** sur un clavier AZERTY, **W
 | Caméra, zoom | flèches, molette |
 | Caméra derrière le commandant | B |
 | Grenade visée (le rond part sous le pointeur) · viser l'ennemi survolé | G · V |
+| Boule de neige vers le pointeur · ne garder que le cône d'un soldat | Alt ou clic molette · le survoler |
 
 #### Véhicules, avion et parachute
 
@@ -522,8 +562,8 @@ Le jeu suit la **position** des touches : **Z Q S D** sur un clavier AZERTY, **W
 | Se déplacer · regarder | stick gauche · stick droit |
 | Sauter, se relever | A |
 | En mouvement : recherche de vitesse · à l'arrêt : descendre d'une position | B |
-| Interagir | X |
-| Arme suivante · arme précédente, suivante | Y · croix ← → |
+| Interagir · tenu : assommer, traîner, enfouir, s'enfouir | X |
+| Boule de neige (au Duel et au Coup de main : arme suivante) · arme précédente, suivante | Y · croix ← → |
 | Mode de tir · coup de couteau (aux jumelles : zoom) | croix ↑ · croix ↓ |
 | Viser · tirer | gâchette gauche · gâchette droite |
 | Grenade (tenu : viser au stick droit · relâché : lancer · B : la garder) · jumelles | bouton gauche · bouton droit |
@@ -541,6 +581,8 @@ En vue isométrique, le stick gauche pousse vers la direction de l'écran ; le r
 | Retirer l'élément choisi | Suppr |
 | Terminer · abandonner la ronde d'une patrouille | Entrée · Échap |
 
+Les commandes des packs (le drone, la roue d'ordres de Nouka, le chasse-neige) apparaîtront dans **Comment jouer** à leur arrivée.
+
 ---
 
 ### Conseils
@@ -556,6 +598,8 @@ En vue isométrique, le stick gauche pousse vers la direction de l'écran ; le r
 - **Contournez les corbeaux** posés sur la neige près d'un poste ennemi : s'ils s'envolent, les soldats sortent voir.
 - **Faites demi-tour quand la glace craque** : une fois qu'elle a cédé, seule la fusée de détresse peut vous sauver.
 - **Coupez le télégraphe** avant d'attaquer un poste : il ne peut plus appeler ses voisins à l'aide.
+- **Repérez d'abord l'opérateur radio** : dès que sa garnison vous repère, il a vingt secondes pour appeler des renforts.
+- **Lancez la boule de neige loin de vous**, de préférence au crépuscule ou de nuit : de jour, le soldat qui va voir voit loin autour de lui.
 - **En campagne avancée, tenez tôt une station radio** : les écoutes trahissent bien plus vite la doctrine de Krag.
 - **Avec les liens tirés au sort, relisez les fiches** avant de partir recruter : celui qui suivait le commandant sur Nivôse ne le suit peut-être plus.
 
@@ -565,13 +609,13 @@ D'autres conseils vous attendent dans le livret de règles, chapitre par chapitr
 
 ### Crédits et licences
 
-Conception, île de Nivôse, récit et règles : création originale de Studio Thelba. Les sons et la musique sont synthétisés par le jeu.
+Conception, île de Nivôse, récit et règles : création originale de Studio Thelba. Musique de Studio Thelba (« La Rébellion du Nord ») ; bruitages faits pour le jeu ou tirés de bibliothèques de sons gratuites.
 
 - **Modélisation des armes et des bras** : Baptiste Barbe, artiste 3D — [artstation.com/barbe_baptiste](https://www.artstation.com/barbe_baptiste)
 - **Personnages, animaux et nature** : Toon Shooter Game Kit, Ultimate Animated Animals, Ultimate Nature Pack et Survival Pack de Quaternius (CC0) ; têtes et portraits des recrues, et détails de la vie de l'île, par Studio Thelba.
 - **Panneau indicateur** : Direction_Wood_2, du pack « Into The Wild » d'Atomic Realm.
 - **Voitures des villes et pick-up** : « Low Poly Vehicles – Optimized Package » d'Awbmecreations (Unity Asset Store). **Textures** : Poly Haven et ambientCG (CC0).
-- **Polices** (SIL Open Font License 1.1) : Bangers, Barlow Semi Condensed, Big Shoulders Display, Comic Neue, Cormorant Garamond, Cormorant SC, Noto Sans Math, Noto Sans Symbols 2.
+- **Polices** (SIL Open Font License 1.1) : Bangers, Barlow Semi Condensed, Big Shoulders Display, Comic Neue, Cormorant Garamond, Cormorant SC, Lilita One, Noto Sans Math, Noto Sans Symbols 2, Patrick Hand.
 - **Cartes réelles** : lieux, bâtiments, routes, rivières, lacs, forêts, aérodromes et ponts © contributeurs d'OpenStreetMap (ODbL) ; relief Terrain Tiles (Mapzen, AWS Open Data) et leurs sources ; recherche de lieux par Photon (komoot) et Nominatim.
 - Réalisé avec **Unity** ; modèles préparés avec **Blender**.
 
