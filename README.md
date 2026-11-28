@@ -34,7 +34,7 @@ A turn-based strategy game played on a command map, combined with first-person 3
 
 The rulebook covers the whole game: the aim of the game, victory and defeat, difficulty levels, the Guard's Logbook and the leaderboards, the free game, what each recruit skill is for, stealth, wildlife, the mechanic and spare parts, the Premium Pack, the recruit packs and the enemy packs, the Duel and the Raid, the editor, every control, a controls summary and an index. **Tip** boxes along the way give players' advice: how to approach a post, when to sabotage, how to stay out of sight.
 
-- **Read online**: [Rulebook (English)](https://zedoc84.github.io/Guerilla-public/Guerilla-Rulebook-EN.html) · [Livret de règles (français)](https://zedoc84.github.io/Guerilla-public/Guerilla-Livret-de-regles-FR.html)
+- **Read online**: [Rulebook (English)](https://zedoc84.github.io/Guerilla-public/Guerilla-Rulebook-EN.html?v=2026-11-28) · [Livret de règles (français)](https://zedoc84.github.io/Guerilla-public/Guerilla-Livret-de-regles-FR.html?v=2026-11-28)
 - **PDF**, to print or keep: [Guerilla-Rulebook-EN.pdf](Guerilla-Rulebook-EN.pdf) · [Guerilla-Livret-de-regles-FR.pdf](Guerilla-Livret-de-regles-FR.pdf)
 
 The online version works on a computer or a phone. It is a single page: save it from your browser to read it offline.
@@ -337,7 +337,7 @@ Jeu de stratégie au tour par tour sur une carte d'état-major, et de combat à 
 
 Le livret présente tout le jeu : le but du jeu, la victoire et la défaite, les niveaux de jeu, le Carnet de la Garde et les classements, le jeu gratuit, le rôle de chaque compétence des recrues, la discrétion, la faune, la mécanicienne et les pièces détachées, le Pack Premium, les packs de recrues et les packs d'ennemis, le Duel et le Coup de main, l'éditeur, toutes les commandes, un récapitulatif des commandes et un index. Au fil des chapitres, des encadrés **Conseil** donnent des astuces de joueur : comment approcher un poste, quand saboter, comment rester hors de vue.
 
-- **Lire en ligne** : [Livret de règles (français)](https://zedoc84.github.io/Guerilla-public/Guerilla-Livret-de-regles-FR.html) · [Rulebook (English)](https://zedoc84.github.io/Guerilla-public/Guerilla-Rulebook-EN.html)
+- **Lire en ligne** : [Livret de règles (français)](https://zedoc84.github.io/Guerilla-public/Guerilla-Livret-de-regles-FR.html?v=2026-11-28) · [Rulebook (English)](https://zedoc84.github.io/Guerilla-public/Guerilla-Rulebook-EN.html?v=2026-11-28)
 - **PDF**, à imprimer ou à garder : [Guerilla-Livret-de-regles-FR.pdf](Guerilla-Livret-de-regles-FR.pdf) · [Guerilla-Rulebook-EN.pdf](Guerilla-Rulebook-EN.pdf)
 
 La version en ligne se lit sur ordinateur comme sur téléphone. C'est une seule page : enregistrez-la depuis votre navigateur pour la lire hors connexion.
